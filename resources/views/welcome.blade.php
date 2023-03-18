@@ -112,25 +112,25 @@
                                     <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                     <ul class="main-menu__list">
                                         <li>
-                                            <a href="#">Home</a>
+                                            <a onclick="return alert('Work in progress....')" href="#">Home</a>
                                         </li>
                                         <li>
-                                            <a href="#">Who we are</a>
+                                            <a onclick="return alert('Work in progress....')" href="#">Who we are</a>
                                         </li>
                                         <li>
-                                            <a href="#">Leadership</a>
+                                            <a onclick="return alert('Work in progress....')" href="#">Leadership</a>
                                         </li>
                                         <li>
-                                            <a href="#">Membership</a>
+                                            <a onclick="return alert('Work in progress....')" href="#">Membership</a>
                                         </li>
                                         <li>
-                                            <a href="#">Regions</a>
+                                            <a onclick="return alert('Work in progress....')" href="#">Regions</a>
                                         </li>
                                         <li>
-                                            <a href="#">Veterans</a>
+                                            <a onclick="return alert('Work in progress....')" href="#">Veterans</a>
                                         </li>
                                         <li>
-                                            <a href="#">Contact</a>
+                                            <a onclick="return alert('Work in progress....')" href="#">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
