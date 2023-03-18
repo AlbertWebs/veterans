@@ -445,7 +445,7 @@ ul {
   animation-name: flipInY;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  background-image: url(../images/loader.png);
+  background-image: url(../images/logo-trimmed.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 60px auto;
