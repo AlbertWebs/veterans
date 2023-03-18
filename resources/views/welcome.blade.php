@@ -227,7 +227,7 @@
                             <h2 class="main-slider__title">Kenya Veterans
                                 <br> For Peace.</h2>
                             <div class="main-slider__btn-box">
-                                <a href="about.html" class="main-slider__btn thm-btn">Learn More</a>
+                                <a href="about#" class="main-slider__btn thm-btn">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -304,10 +304,10 @@
                                     <h3 class="footer-widget__title">Quick Links</h3>
                                 </div>
                                 <ul class="footer-widget__link-list list-unstyled">
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="team.html">Leadership</a></li>
-                                    <li><a href="events.html">Membership</a></li>
-                                    <li><a href="news.html">Regions</a></li>
+                                    <li><a href="about#">About</a></li>
+                                    <li><a href="team#">Leadership</a></li>
+                                    <li><a href="events#">Membership</a></li>
+                                    <li><a href="news#">Regions</a></li>
                                     <li><a href="#">Contact</a></li>
                                 </ul>
                             </div>
@@ -318,11 +318,11 @@
                                     <h3 class="footer-widget__title">Important Links</h3>
                                 </div>
                                 <ul class="footer-widget__link-list list-unstyled">
-                                    <li><a href="about.html">Health & Safety</a></li>
-                                    <li><a href="about.html">Housing & Land</a></li>
-                                    <li><a href="about.html">Legal & Finance</a></li>
-                                    <li><a href="about.html">Transport & Traffic</a></li>
-                                    <li><a href="about.html">Arts & Culture</a></li>
+                                    <li><a href="about#">Health & Safety</a></li>
+                                    <li><a href="about#">Housing & Land</a></li>
+                                    <li><a href="about#">Legal & Finance</a></li>
+                                    <li><a href="about#">Transport & Traffic</a></li>
+                                    <li><a href="about#">Arts & Culture</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -332,10 +332,10 @@
                                     <h3 class="footer-widget__title">Explore</h3>
                                 </div>
                                 <ul class="footer-widget__link-list list-unstyled">
-                                    <li><a href="about.html">Privacy Policy</a></li>
-                                    <li><a href="about.html">Terms and Conditions</a></li>
-                                    <li><a href="tax-return.html">Copyright Statment</a></li>
-                                    <li><a href="about.html">Registration</a></li>
+                                    <li><a href="about#">Privacy Policy</a></li>
+                                    <li><a href="about#">Terms and Conditions</a></li>
+                                    <li><a href="tax-return#">Copyright Statment</a></li>
+                                    <li><a href="about#">Registration</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -419,7 +419,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="{{asset('uploads/logo/logo-trimmed.png')}}" width="94"
+                <a href="index#" aria-label="logo image"><img src="{{asset('uploads/logo/logo-trimmed.png')}}" width="94"
                         alt="" /></a>
             </div>
             <!-- /.logo-box -->
