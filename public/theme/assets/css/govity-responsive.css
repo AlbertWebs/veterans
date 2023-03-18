@@ -2215,9 +2215,23 @@
         justify-content: flex-end;
     }
 
-    .main-menu__logo a {
-        padding: 28px 60px;
-    }
+
+
+
+
+      .main-menu__logo a {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--govity-white);
+        /* padding: 9px 1px; */
+        /* max-width:142px; */
+      }
+      .main-menu__logo img{
+          max-height:100px;
+      }
+
 
     .main-menu__right {
         display: none;

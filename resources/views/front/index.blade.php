@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from layerdrops.com/govity/main-html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Mar 2023 15:11:04 GMT -->
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Home One || govity || govity HTML 5 Template </title>
+    <title> Kenya Veterans For Peace || Welcome To Kenya Veterans For Peace </title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png')}}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png')}}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png')}}" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
     <meta name="description" content="govity HTML 5 Template " />
 
@@ -19,35 +17,33 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
-    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
-    <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
-    <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
-    <link rel="stylesheet" href="assets/vendors/govity-icons/style.css">
-    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.min.css" />
-    <link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="assets/vendors/bxslider/jquery.bxslider.css" />
-    <link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
-    <link rel="stylesheet" href="assets/vendors/vegas/vegas.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
-    <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
-    <link rel="stylesheet" href="assets/vendors/nice-select/nice-select.css" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/bootstrap/css/bootstrap.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/animate/animate.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/animate/custom-animate.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/fontawesome/css/all.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/jarallax/jarallax.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/nouislider/nouislider.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/nouislider/nouislider.pips.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/odometer/odometer.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/swiper/swiper.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/govity-icons/style.css')}}">
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/tiny-slider/tiny-slider.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/reey-font/stylesheet.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/owl-carousel/owl.carousel.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/owl-carousel/owl.theme.default.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/bxslider/jquery.bxslider.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/bootstrap-select/css/bootstrap-select.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/vegas/vegas.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/jquery-ui/jquery-ui.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/timepicker/timePicker.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/vendors/nice-select/nice-select.css')}}" />
 
     <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/govity.css" />
-    <link rel="stylesheet" href="assets/css/govity-responsive.css" />
+    <link rel="stylesheet" href="{{asset('theme/assets/css/govity.css')}}" />
+    <link rel="stylesheet" href="{{asset('theme/assets/css/govity-responsive.css')}}" />
 </head>
 
 <body class="custom-cursor">
@@ -71,7 +67,7 @@
                 <div class="main-menu__wrapper">
                     <div class="main-menu__wrapper-inner">
                         <div class="main-menu__logo">
-                            <a href="index.html"><img src="assets/images/resources/logo-1.png" alt=""></a>
+                            <a href="{{url('/')}}"><img width="160" src="{{asset('uploads/logo/logo-trimmed.png')}}" alt=""></a>
                         </div>
                         <div class="main-menu__top">
                             <div class="main-menu__top-inner">
@@ -79,7 +75,7 @@
                                     <div class="main-menu__social">
                                         <a href="#"><i class="fab fa-twitter"></i></a>
                                         <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin"></i></a>
                                         <a href="#"><i class="fab fa-instagram"></i></a>
                                     </div>
                                 </div>
@@ -90,7 +86,7 @@
                                                 <i class="fas fa-envelope"></i>
                                             </div>
                                             <div class="text">
-                                                <p><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
+                                                <p><a href="mailto:hello@veterans.or.ke">hello@veterans.or.ke</a></p>
                                             </div>
                                         </li>
                                         <li>
@@ -98,14 +94,14 @@
                                                 <i class="fas fa-clock"></i>
                                             </div>
                                             <div class="text">
-                                                <p>Open hours: Mon - Fri 8.00 am - 6.00 pm</p>
+                                                <p>    Peace <strong style="font-weight:900"> • </strong> Security <strong> • </strong> Development  </p>
                                             </div>
                                         </li>
                                     </ul>
                                     <ul class="list-unstyled main-menu__top-menu">
-                                        <li><a href="about.html">Council</a></li>
-                                        <li><a href="about.html">Government</a></li>
-                                        <li><a href="contact.html">Complaints</a></li>
+                                        <li><a href="#">Mission</a></li>
+                                        <li><a href="#">Vision</a></li>
+                                        <li><a href="#">Core Values</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -115,158 +111,26 @@
                                 <div class="main-menu__main-menu-box">
                                     <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                     <ul class="main-menu__list">
-                                        <li class="dropdown megamenu">
-                                            <a href="index.html">Home </a>
-                                            <ul>
-                                                <li>
-                                                    <section class="home-showcase">
-                                                        <div class="container">
-                                                            <div class="home-showcase__inner">
-                                                                <div class="row">
-                                                                    <div class="col-lg-3">
-                                                                        <div class="home-showcase__item">
-                                                                            <div class="home-showcase__image">
-                                                                                <img src="assets/images/home-showcase/home-showcase-1-1.jpg"
-                                                                                    alt="">
-                                                                                <div class="home-showcase__buttons">
-                                                                                    <a href="index.html"
-                                                                                        class="thm-btn home-showcase__buttons__item">Multi
-                                                                                        Page</a>
-                                                                                    <a href="index-one-page.html"
-                                                                                        class="thm-btn home-showcase__buttons__item">One
-                                                                                        Page</a>
-                                                                                </div>
-                                                                                <!-- /.home-showcase__buttons -->
-                                                                            </div><!-- /.home-showcase__image -->
-                                                                            <h3 class="home-showcase__title">Home
-                                                                                Page
-                                                                                01</h3>
-                                                                            <!-- /.home-showcase__title -->
-                                                                        </div><!-- /.home-showcase__item -->
-                                                                    </div><!-- /.col-lg-3 -->
-                                                                    <div class="col-lg-3">
-                                                                        <div class="home-showcase__item">
-                                                                            <div class="home-showcase__image">
-                                                                                <img src="assets/images/home-showcase/home-showcase-1-2.jpg"
-                                                                                    alt="">
-                                                                                <div class="home-showcase__buttons">
-                                                                                    <a href="index2.html"
-                                                                                        class="thm-btn home-showcase__buttons__item">Multi
-                                                                                        Page</a>
-                                                                                    <a href="index2-one-page.html"
-                                                                                        class="thm-btn home-showcase__buttons__item">One
-                                                                                        Page</a>
-                                                                                </div>
-                                                                                <!-- /.home-showcase__buttons -->
-                                                                            </div><!-- /.home-showcase__image -->
-                                                                            <h3 class="home-showcase__title">Home
-                                                                                Page
-                                                                                02
-                                                                            </h3><!-- /.home-showcase__title -->
-                                                                        </div><!-- /.home-showcase__item -->
-                                                                    </div><!-- /.col-lg-3 -->
-                                                                    <div class="col-lg-3">
-                                                                        <div class="home-showcase__item">
-                                                                            <div class="home-showcase__image">
-                                                                                <img src="assets/images/home-showcase/home-showcase-1-3.jpg"
-                                                                                    alt="">
-                                                                                <div class="home-showcase__buttons">
-                                                                                    <a href="index3.html"
-                                                                                        class="thm-btn home-showcase__buttons__item">Multi
-                                                                                        Page</a>
-                                                                                    <a href="index3-one-page.html"
-                                                                                        class="thm-btn home-showcase__buttons__item">One
-                                                                                        Page</a>
-                                                                                </div>
-                                                                                <!-- /.home-showcase__buttons -->
-                                                                            </div><!-- /.home-showcase__image -->
-                                                                            <h3 class="home-showcase__title">Home
-                                                                                Page
-                                                                                03
-                                                                            </h3><!-- /.home-showcase__title -->
-                                                                        </div><!-- /.home-showcase__item -->
-                                                                    </div><!-- /.col-lg-3 -->
-                                                                    <div class="col-lg-3">
-                                                                        <div class="home-showcase__item">
-                                                                            <div class="home-showcase__image">
-                                                                                <img src="assets/images/home-showcase/home-showcase-1-4.jpg"
-                                                                                    alt="">
-                                                                                <div class="home-showcase__buttons">
-                                                                                    <a href="index-dark.html"
-                                                                                        class="thm-btn home-showcase__buttons__item">View
-                                                                                        Page</a>
-                                                                                </div>
-                                                                                <!-- /.home-showcase__buttons -->
-                                                                            </div><!-- /.home-showcase__image -->
-                                                                            <h3 class="home-showcase__title">Home
-                                                                                Page
-                                                                                04
-                                                                            </h3><!-- /.home-showcase__title -->
-                                                                        </div><!-- /.home-showcase__item -->
-                                                                    </div><!-- /.col-lg-3 -->
-                                                                </div><!-- /.row -->
-                                                            </div><!-- /.home-showcase__inner -->
-
-                                                        </div><!-- /.container -->
-                                                    </section>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#">Pages</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="about.html">About us</a></li>
-                                                <li><a href="our-history.html">Our history</a></li>
-                                                <li><a href="team.html">Team</a></li>
-                                                <li><a href="team-details.html">Team details</a></li>
-                                                <li><a href="portfolio.html">Portfolio</a></li>
-                                                <li><a href="portfolio-details.html">Portfolio details</a></li>
-                                                <li><a href="events.html">Events</a></li>
-                                                <li><a href="event-details.html">Event details</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="faq.html">FAQs</a></li>
-                                                <li><a href="404.html">404 error</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#">Services</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="our-services.html">Services</a></li>
-                                                <li><a href="building-permission.html">Building permission</a></li>
-                                                <li><a href="driving-license.html">Driving license</a></li>
-                                                <li><a href="report-polution.html">Report polution</a></li>
-                                                <li><a href="parking-permission.html">Parking permission</a></li>
-                                                <li><a href="tax-return.html">Tax return</a></li>
-                                                <li><a href="birth-certificate.html">Birth certificate</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#">Departments</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="departments.html">Departments</a></li>
-                                                <li><a href="department-details.html">Department details</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="dropdown">
-                                            <a href="#">News</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="news.html">News</a></li>
-                                                <li><a href="news-sidebar.html">News sidebar</a></li>
-                                                <li><a href="news-details.html">News details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#">Shop</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="shop.html">Shop</a></li>
-                                                <li><a href="shop-details.html">Shop details</a></li>
-                                                <li><a href="cart.html">Cart</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                            </ul>
+                                        <li>
+                                            <a href="#">Home</a>
                                         </li>
                                         <li>
-                                            <a href="contact.html">Contact</a>
+                                            <a href="#">Who we are</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Leadership</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Membership</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Regions</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Veterans</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -302,7 +166,7 @@
 
                                     </div>
                                     <div class="main-menu__btn-box">
-                                        <a href="contact.html" class="thm-btn main-menu__btn">Report Issue</a>
+                                        <a href="#" class="thm-btn main-menu__btn">Report Issue</a>
                                     </div>
                                 </div>
                             </div>
@@ -323,16 +187,16 @@
 
                 <div class="item main-slider__slide-1">
                     <div class="main-slider__bg"
-                        style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);">
+                        style="background-image: url('{{asset('theme/assets/images/backgrounds/slider-1-1.jpg')}}');">
                     </div><!-- /.slider-one__bg -->
                     <div class="main-slider__shape-1">
-                        <img src="assets/images/shapes/main-slider-shape-1.png" alt="">
+                        <img src="{{asset('theme/assets/images/shapes/main-slider-shape-1.png')}}" alt="">
                     </div>
                     <div class="main-slider__shape-2">
-                        <img src="assets/images/shapes/main-slider-shape-2.png" alt="">
+                        <img src="{{asset('theme/assets/images/shapes/main-slider-shape-2.png')}}" alt="">
                     </div>
                     <div class="main-slider__shape-3">
-                        <img src="assets/images/shapes/main-slider-shape-3.png" alt="">
+                        <img src="{{asset('theme/assets/images/shapes/main-slider-shape-3.png')}}" alt="">
                     </div>
                     <div class="main-slider__meta-box">
                         <ul class="main-slider__meta list-unstyled">
@@ -357,8 +221,8 @@
                     <div class="container">
                         <div class="main-slider__content">
                             <p class="main-slider__sub-title">2 Millions Visitors Every Year</p>
-                            <h2 class="main-slider__title">Safest City in
-                                <br> the World.</h2>
+                            <h2 class="main-slider__title">Kenya Veterans
+                                <br> For Peace.</h2>
                             <div class="main-slider__btn-box">
                                 <a href="about.html" class="main-slider__btn thm-btn">Discover More</a>
                             </div>
@@ -366,95 +230,7 @@
                     </div>
                 </div>
 
-                <div class="item main-slider__slide-2">
-                    <div class="main-slider__bg"
-                        style="background-image: url(assets/images/backgrounds/slider-1-2.jpg);">
-                    </div><!-- /.slider-one__bg -->
-                    <div class="main-slider__shape-1">
-                        <img src="assets/images/shapes/main-slider-shape-1.png" alt="">
-                    </div>
-                    <div class="main-slider__shape-2">
-                        <img src="assets/images/shapes/main-slider-shape-2.png" alt="">
-                    </div>
-                    <div class="main-slider__shape-3">
-                        <img src="assets/images/shapes/main-slider-shape-3.png" alt="">
-                    </div>
-                    <div class="main-slider__meta-box">
-                        <ul class="main-slider__meta list-unstyled">
-                            <li>
-                                <div class="icon">
-                                    <span class="fas fa-sun"></span>
-                                </div>
-                                <div class="text">
-                                    <p>Today: 32 0C</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="fas fa-clock"></span>
-                                </div>
-                                <div class="text">
-                                    <p>Time: 09:28 pm</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="container">
-                        <div class="main-slider__content">
-                            <p class="main-slider__sub-title">2 Millions Visitors Every Year</p>
-                            <h2 class="main-slider__title">Safest City in
-                                <br> the World.</h2>
-                            <div class="main-slider__btn-box">
-                                <a href="about.html" class="main-slider__btn thm-btn">Discover More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="item main-slider__slide-3">
-                    <div class="main-slider__bg"
-                        style="background-image: url(assets/images/backgrounds/slider-1-3.jpg);">
-                    </div><!-- /.slider-one__bg -->
-                    <div class="main-slider__shape-1">
-                        <img src="assets/images/shapes/main-slider-shape-1.png" alt="">
-                    </div>
-                    <div class="main-slider__shape-2">
-                        <img src="assets/images/shapes/main-slider-shape-2.png" alt="">
-                    </div>
-                    <div class="main-slider__shape-3">
-                        <img src="assets/images/shapes/main-slider-shape-3.png" alt="">
-                    </div>
-                    <div class="main-slider__meta-box">
-                        <ul class="main-slider__meta list-unstyled">
-                            <li>
-                                <div class="icon">
-                                    <span class="fas fa-sun"></span>
-                                </div>
-                                <div class="text">
-                                    <p>Today: 32 0C</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="fas fa-clock"></span>
-                                </div>
-                                <div class="text">
-                                    <p>Time: 09:28 pm</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="container">
-                        <div class="main-slider__content">
-                            <p class="main-slider__sub-title">2 Millions Visitors Every Year</p>
-                            <h2 class="main-slider__title">Safest City in
-                                <br> the World.</h2>
-                            <div class="main-slider__btn-box">
-                                <a href="about.html" class="main-slider__btn thm-btn">Discover More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
             </div>
         </section>
@@ -532,20 +308,20 @@
                     <div class="col-xl-6">
                         <div class="about-one__left">
                             <div class="about-one__shape-1 float-bob-x">
-                                <img src="assets/images/shapes/about-one-shape-1.png" alt="">
+                                <img src="{{asset('theme/assets/images/shapes/about-one-shape-1.png')}}" alt="">
                             </div>
                             <div class="about-one__shape-3 float-bob-y">
-                                <img src="assets/images/shapes/about-one-shape-3.png" alt="">
+                                <img src="{{asset('theme/assets/images/shapes/about-one-shape-3.png')}}" alt="">
                             </div>
                             <div class="about-one__img-box">
                                 <div class="about-one__img">
-                                    <img src="assets/images/resources/about-one-img-1.jpg" alt="">
+                                    <img src="{{asset('theme/assets/images/resources/about-one-img-1.jpg')}}" alt="">
                                 </div>
                                 <div class="about-one__img-2">
-                                    <img src="assets/images/resources/about-one-img-2.jpg" alt="">
+                                    <img src="{{asset('theme/assets/images/resources/about-one-img-2.jpg')}}" alt="">
                                 </div>
                                 <div class="about-one__shape-2">
-                                    <img src="assets/images/shapes/about-one-shape-2.png" alt="">
+                                    <img src="{{asset('theme/assets/images/shapes/about-one-shape-2.png')}}" alt="">
                                 </div>
                                 <div class="about-one__video-link">
                                     <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
@@ -593,7 +369,7 @@
                             <div class="about-one__btn-box-and-signature">
                                 <a href="about.html" class="about-one__btn thm-btn">Discover More</a>
                                 <div class="about-one__signature">
-                                    <img src="assets/images/resources/about-one-signeture.png" alt="">
+                                    <img src="{{asset('theme/assets/images/resources/about-one-signeture.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -612,7 +388,7 @@
                         <div class="feature-one__single">
                             <div class="feature-one__img-box">
                                 <div class="feature-one__img">
-                                    <img src="assets/images/resources/feature-1-1.jpg" alt="">
+                                    <img src="{{asset('theme/assets/images/resources/feature-1-1.jpg')}}" alt="">
                                 </div>
                                 <div class="feature-one__content">
                                     <div class="feature-one__icon">
@@ -647,7 +423,7 @@
                         <div class="feature-one__single">
                             <div class="feature-one__img-box">
                                 <div class="feature-one__img">
-                                    <img src="assets/images/resources/feature-1-2.jpg" alt="">
+                                    <img src="{{asset('theme/assets/images/resources/feature-1-2.jpg')}}" alt="">
                                 </div>
                                 <div class="feature-one__content">
                                     <div class="feature-one__icon">
@@ -682,7 +458,7 @@
                         <div class="feature-one__single">
                             <div class="feature-one__img-box">
                                 <div class="feature-one__img">
-                                    <img src="assets/images/resources/feature-1-3.jpg" alt="">
+                                    <img src="{{asset('theme/assets/images/resources/feature-1-3.jpg')}}" alt="">
                                 </div>
                                 <div class="feature-one__content">
                                     <div class="feature-one__icon">
@@ -724,11 +500,11 @@
                     <div class="col-xl-4">
                         <div class="services-one__left">
                             <div class="services-one__shape-2 img-bounce">
-                                <img src="assets/images/shapes/services-one-shape-2.png" alt="">
+                                <img src="{{asset('theme/assets/images/shapes/services-one-shape-2.png')}}" alt="">
                             </div>
                             <div class="services-one__img-box">
                                 <div class="services-one__img">
-                                    <img src="assets/images/resources/services-one-img-1.png" alt="">
+                                    <img src="{{asset('theme/assets/images/resources/services-one-img-1.png')}}" alt="">
                                     <div class="services-one__img-shadow"></div>
                                 </div>
                             </div>
@@ -737,10 +513,10 @@
                     <div class="col-xl-8">
                         <div class="services-one__right">
                             <div class="services-one__shape-1 float-bob-x">
-                                <img src="assets/images/shapes/services-one-shape-1.png" alt="">
+                                <img src="{{asset('theme/assets/images/shapes/services-one-shape-1.png')}}" alt="">
                             </div>
                             <div class="services-one__shape-3 float-bob-x">
-                                <img src="assets/images/shapes/services-one-shape-3.png" alt="">
+                                <img src="{{asset('theme/assets/images/shapes/services-one-shape-3.png')}}" alt="">
                             </div>
                             <div class="services-one__points-title-box">
                                 <p>Explore online services & resource</p>
@@ -931,11 +707,11 @@
                         <div class="col-xl-4 col-lg-4">
                             <div class="team-one__single">
                                 <div class="team-one__shape-1">
-                                    <img src="assets/images/shapes/team-one-shape-1.png" alt="">
+                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
                                 </div>
                                 <div class="team-one__img-box">
                                     <div class="team-one__img">
-                                        <img src="assets/images/team/team-1-1.jpg" alt="">
+                                        <img src="{{asset('theme/assets/images/team/team-1-1.jpg')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="team-one__content">
@@ -955,11 +731,11 @@
                         <div class="col-xl-4 col-lg-4">
                             <div class="team-one__single">
                                 <div class="team-one__shape-2">
-                                    <img src="assets/images/shapes/team-one-shape-2.png" alt="">
+                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-2.png')}}" alt="">
                                 </div>
                                 <div class="team-one__img-box">
                                     <div class="team-one__img">
-                                        <img src="assets/images/team/team-1-2.jpg" alt="">
+                                        <img src="{{asset('theme/assets/images/team/team-1-2.jpg')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="team-one__content">
@@ -979,11 +755,11 @@
                         <div class="col-xl-4 col-lg-4">
                             <div class="team-one__single">
                                 <div class="team-one__shape-3">
-                                    <img src="assets/images/shapes/team-one-shape-3.png" alt="">
+                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-3.png')}}" alt="">
                                 </div>
                                 <div class="team-one__img-box">
                                     <div class="team-one__img">
-                                        <img src="assets/images/team/team-1-3.jpg" alt="">
+                                        <img src="{{asset('theme/assets/images/team/team-1-3.jpg')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="team-one__content">
@@ -1045,10 +821,10 @@
                             <div class="testimonial-one__single">
                                 <div class="testimonial-one__single-inner">
                                     <div class="testimonial-one__shape-1">
-                                        <img src="assets/images/shapes/testimonial-one-shape-1.png" alt="">
+                                        <img src="{{asset('theme/assets/images/shapes/testimonial-one-shape-1.png')}}" alt="">
                                     </div>
                                     <div class="testimonial-one__shape-2">
-                                        <img src="assets/images/shapes/testimonial-one-shape-2.png" alt="">
+                                        <img src="{{asset('theme/assets/images/shapes/testimonial-one-shape-2.png')}}" alt="">
                                     </div>
                                     <div class="testimonial-one__quote">
                                         <span class="icon-quote"></span>
@@ -1061,7 +837,7 @@
                                     <div class="testimonial-one__client-info">
                                         <div class="testimonial-one__client-img-box">
                                             <div class="testimonial-one__client-img">
-                                                <img src="assets/images/testimonial/testimonial-1-1.jpg" alt="">
+                                                <img src="{{asset('theme/assets/images/testimonial/testimonial-1-1.jpg')}}" alt="">
                                             </div>
                                         </div>
                                         <div class="testimonial-one__client-content">
@@ -1085,10 +861,10 @@
                             <div class="testimonial-one__single">
                                 <div class="testimonial-one__single-inner">
                                     <div class="testimonial-one__shape-1">
-                                        <img src="assets/images/shapes/testimonial-one-shape-1.png" alt="">
+                                        <img src="{{asset('theme/assets/images/shapes/testimonial-one-shape-1.png')}}" alt="">
                                     </div>
                                     <div class="testimonial-one__shape-2">
-                                        <img src="assets/images/shapes/testimonial-one-shape-2.png" alt="">
+                                        <img src="{{asset('theme/assets/images/shapes/testimonial-one-shape-2.png')}}" alt="">
                                     </div>
                                     <div class="testimonial-one__quote">
                                         <span class="icon-quote"></span>
@@ -1101,7 +877,7 @@
                                     <div class="testimonial-one__client-info">
                                         <div class="testimonial-one__client-img-box">
                                             <div class="testimonial-one__client-img">
-                                                <img src="assets/images/testimonial/testimonial-1-2.jpg" alt="">
+                                                <img src="{{asset('theme/assets/images/testimonial/testimonial-1-2.jpg')}}" alt="">
                                             </div>
                                         </div>
                                         <div class="testimonial-one__client-content">
@@ -1125,10 +901,10 @@
                             <div class="testimonial-one__single">
                                 <div class="testimonial-one__single-inner">
                                     <div class="testimonial-one__shape-1">
-                                        <img src="assets/images/shapes/testimonial-one-shape-1.png" alt="">
+                                        <img src="{{asset('theme/assets/images/shapes/testimonial-one-shape-1.png')}}" alt="">
                                     </div>
                                     <div class="testimonial-one__shape-2">
-                                        <img src="assets/images/shapes/testimonial-one-shape-2.png" alt="">
+                                        <img src="{{asset('theme/assets/images/shapes/testimonial-one-shape-2.png')}}" alt="">
                                     </div>
                                     <div class="testimonial-one__quote">
                                         <span class="icon-quote"></span>
@@ -1141,7 +917,7 @@
                                     <div class="testimonial-one__client-info">
                                         <div class="testimonial-one__client-img-box">
                                             <div class="testimonial-one__client-img">
-                                                <img src="assets/images/testimonial/testimonial-1-3.jpg" alt="">
+                                                <img src="{{asset('theme/assets/images/testimonial/testimonial-1-3.jpg')}}" alt="">
                                             </div>
                                         </div>
                                         <div class="testimonial-one__client-content">
@@ -1165,10 +941,10 @@
                             <div class="testimonial-one__single">
                                 <div class="testimonial-one__single-inner">
                                     <div class="testimonial-one__shape-1">
-                                        <img src="assets/images/shapes/testimonial-one-shape-1.png" alt="">
+                                        <img src="{{asset('theme/assets/images/shapes/testimonial-one-shape-1.png')}}" alt="">
                                     </div>
                                     <div class="testimonial-one__shape-2">
-                                        <img src="assets/images/shapes/testimonial-one-shape-2.png" alt="">
+                                        <img src="{{asset('theme/assets/images/shapes/testimonial-one-shape-2.png')}}" alt="">
                                     </div>
                                     <div class="testimonial-one__quote">
                                         <span class="icon-quote"></span>
@@ -1181,7 +957,7 @@
                                     <div class="testimonial-one__client-info">
                                         <div class="testimonial-one__client-img-box">
                                             <div class="testimonial-one__client-img">
-                                                <img src="assets/images/testimonial/testimonial-1-4.jpg" alt="">
+                                                <img src="{{asset('theme/assets/images/testimonial/testimonial-1-4.jpg')}}" alt="">
                                             </div>
                                         </div>
                                         <div class="testimonial-one__client-content">
@@ -1266,7 +1042,7 @@
                             <div class="portfolio-one__single">
                                 <div class="portfolio-one__img-box">
                                     <div class="portfolio-one__img">
-                                        <img src="assets/images/project/portfolio-1-1.jpg" alt="">
+                                        <img src="{{asset('theme/assets/images/project/portfolio-1-1.jpg')}}" alt="">
                                     </div>
                                     <div class="portfolio-one__content">
                                         <p class="portfolio-one__sub-title">Culture</p>
@@ -1282,7 +1058,7 @@
                             <div class="portfolio-one__single mar-top">
                                 <div class="portfolio-one__img-box">
                                     <div class="portfolio-one__img">
-                                        <img src="assets/images/project/portfolio-1-2.jpg" alt="">
+                                        <img src="{{asset('theme/assets/images/project/portfolio-1-2.jpg')}}" alt="">
                                     </div>
                                     <div class="portfolio-one__content">
                                         <p class="portfolio-one__sub-title">Culture</p>
@@ -1298,7 +1074,7 @@
                             <div class="portfolio-one__single">
                                 <div class="portfolio-one__img-box">
                                     <div class="portfolio-one__img">
-                                        <img src="assets/images/project/portfolio-1-3.jpg" alt="">
+                                        <img src="{{asset('theme/assets/images/project/portfolio-1-3.jpg')}}" alt="">
                                     </div>
                                     <div class="portfolio-one__content">
                                         <p class="portfolio-one__sub-title">Culture</p>
@@ -1314,7 +1090,7 @@
                             <div class="portfolio-one__single mar-top">
                                 <div class="portfolio-one__img-box">
                                     <div class="portfolio-one__img">
-                                        <img src="assets/images/project/portfolio-1-4.jpg" alt="">
+                                        <img src="{{asset('theme/assets/images/project/portfolio-1-4.jpg')}}" alt="">
                                     </div>
                                     <div class="portfolio-one__content">
                                         <p class="portfolio-one__sub-title">Culture</p>
@@ -1330,7 +1106,7 @@
                             <div class="portfolio-one__single">
                                 <div class="portfolio-one__img-box">
                                     <div class="portfolio-one__img">
-                                        <img src="assets/images/project/portfolio-1-5.jpg" alt="">
+                                        <img src="{{asset('theme/assets/images/project/portfolio-1-5.jpg')}}" alt="">
                                     </div>
                                     <div class="portfolio-one__content">
                                         <p class="portfolio-one__sub-title">Culture</p>
@@ -1377,31 +1153,31 @@
                     <!--Brand One Single-->
                     <div class="brand-one__single">
                         <div class="brand-one__img">
-                            <img src="assets/images/brand/brand-1-1.png" alt="">
+                            <img src="{{asset('theme/assets/images/brand/brand-1-1.png')}}" alt="">
                         </div>
                     </div>
                     <!--Brand One Single-->
                     <div class="brand-one__single">
                         <div class="brand-one__img">
-                            <img src="assets/images/brand/brand-1-2.png" alt="">
+                            <img src="{{asset('theme/assets/images/brand/brand-1-2.png')}}" alt="">
                         </div>
                     </div>
                     <!--Brand One Single-->
                     <div class="brand-one__single">
                         <div class="brand-one__img">
-                            <img src="assets/images/brand/brand-1-3.png" alt="">
+                            <img src="{{asset('theme/assets/images/brand/brand-1-3.png')}}" alt="">
                         </div>
                     </div>
                     <!--Brand One Single-->
                     <div class="brand-one__single">
                         <div class="brand-one__img">
-                            <img src="assets/images/brand/brand-1-4.png" alt="">
+                            <img src="{{asset('theme/assets/images/brand/brand-1-4.png')}}" alt="">
                         </div>
                     </div>
                     <!--Brand One Single-->
                     <div class="brand-one__single">
                         <div class="brand-one__img">
-                            <img src="assets/images/brand/brand-1-5.png" alt="">
+                            <img src="{{asset('theme/assets/images/brand/brand-1-5.png')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -1413,7 +1189,7 @@
         <!--Event One Start-->
         <section class="event-one">
             <div class="event-one__shape-1">
-                <img src="assets/images/shapes/event-one-shape-1.jpg" alt="">
+                <img src="{{asset('theme/assets/images/shapes/event-one-shape-1.jpg')}}" alt="">
             </div>
             <div class="container">
                 <div class="row">
@@ -1432,7 +1208,7 @@
                                     <div class="event-one__single">
                                         <div class="event-one__img-box">
                                             <div class="event-one__img">
-                                                <img src="assets/images/events/event-1-1.jpg" alt="">
+                                                <img src="{{asset('theme/assets/images/events/event-1-1.jpg')}}" alt="">
                                             </div>
                                             <div class="event-one__date">
                                                 <p>30 <br> MAY</p>
@@ -1470,7 +1246,7 @@
                                     <div class="event-one__single">
                                         <div class="event-one__img-box">
                                             <div class="event-one__img">
-                                                <img src="assets/images/events/event-1-2.jpg" alt="">
+                                                <img src="{{asset('theme/assets/images/events/event-1-2.jpg')}}" alt="">
                                             </div>
                                             <div class="event-one__date">
                                                 <p>30 <br> MAY</p>
@@ -1556,7 +1332,7 @@
                         <div class="news-one__single">
                             <div class="news-one__img-box">
                                 <div class="news-one__img">
-                                    <img src="assets/images/blog/news-1-1.jpg" alt="">
+                                    <img src="{{asset('theme/assets/images/blog/news-1-1.jpg')}}" alt="">
                                 </div>
                                 <div class="news-one__date">
                                     <p>30 <br> JAN</p>
@@ -1566,7 +1342,7 @@
                                 <div class="news-one__user-and-meta">
                                     <div class="news-one__user">
                                         <div class="news-one__user-img">
-                                            <img src="assets/images/blog/news-one-user-img.jpg" alt="">
+                                            <img src="{{asset('theme/assets/images/blog/news-one-user-img.jpg')}}" alt="">
                                         </div>
                                         <div class="news-one__user-text">
                                             <p>by <br>Admin</p>
@@ -1596,7 +1372,7 @@
                         <div class="news-one__single">
                             <div class="news-one__img-box">
                                 <div class="news-one__img">
-                                    <img src="assets/images/blog/news-1-2.jpg" alt="">
+                                    <img src="{{asset('theme/assets/images/blog/news-1-2.jpg')}}" alt="">
                                 </div>
                                 <div class="news-one__date">
                                     <p>30 <br> JAN</p>
@@ -1606,7 +1382,7 @@
                                 <div class="news-one__user-and-meta">
                                     <div class="news-one__user">
                                         <div class="news-one__user-img">
-                                            <img src="assets/images/blog/news-one-user-img.jpg" alt="">
+                                            <img src="{{asset('theme/assets/images/blog/news-one-user-img.jpg')}}" alt="">
                                         </div>
                                         <div class="news-one__user-text">
                                             <p>by <br>Admin</p>
@@ -1636,7 +1412,7 @@
                         <div class="news-one__single">
                             <div class="news-one__img-box">
                                 <div class="news-one__img">
-                                    <img src="assets/images/blog/news-1-3.jpg" alt="">
+                                    <img src="{{asset('theme/assets/images/blog/news-1-3.jpg')}}" alt="">
                                 </div>
                                 <div class="news-one__date">
                                     <p>30 <br> JAN</p>
@@ -1646,7 +1422,7 @@
                                 <div class="news-one__user-and-meta">
                                     <div class="news-one__user">
                                         <div class="news-one__user-img">
-                                            <img src="assets/images/blog/news-one-user-img.jpg" alt="">
+                                            <img src="{{asset('theme/assets/images/blog/news-one-user-img.jpg')}}" alt="">
                                         </div>
                                         <div class="news-one__user-text">
                                             <p>by <br>Admin</p>
@@ -1679,12 +1455,12 @@
         <!--Site Footer Start-->
         <footer class="site-footer">
             <div class="site-footer__img">
-                <img src="assets/images/resources/site-footer-img.jpg" alt="">
+                <img src="{{asset('theme/assets/images/resources/site-footer-img.jpg')}}" alt="">
             </div>
             <div class="container">
                 <div class="site-footer__top">
                     <div class="footer-widget__logo">
-                        <a href="index.html"><img src="assets/images/resources/footer-logo.png" alt=""></a>
+                        <a href="index.html"><img src="{{asset('theme/assets/images/resources/footer-logo.png')}}" alt=""></a>
                     </div>
                     <div class="footer-widget__subscribe-box">
                         <div class="footer-widget__subscribe-text">
@@ -1744,7 +1520,7 @@
                                     <li><a href="team.html">Our Team</a></li>
                                     <li><a href="events.html">Upcoming Events</a></li>
                                     <li><a href="news.html">Latest News</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="#">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1783,43 +1559,43 @@
                                 <ul class="footer-widget__gallery-list list-unstyled clearfix">
                                     <li>
                                         <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/gallery/footer-widget-gallery-img-1.jpg" alt="">
-                                            <a href="assets/images/gallery/footer-widget-gallery-img-1.jpg"
+                                            <img src="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-1.jpg')}}" alt="">
+                                            <a href="assets/images/gallery/footer-widget-gallery-img-1.jpg')}}"
                                                 class="img-popup"><span class="fab fa-instagram"></span></a>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/gallery/footer-widget-gallery-img-2.jpg" alt="">
-                                            <a href="assets/images/gallery/footer-widget-gallery-img-2.jpg"
+                                            <img src="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-2.jpg')}}" alt="">
+                                            <a href="assets/images/gallery/footer-widget-gallery-img-2.jpg')}}"
                                                 class="img-popup"><span class="fab fa-instagram"></span></a>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/gallery/footer-widget-gallery-img-3.jpg" alt="">
-                                            <a href="assets/images/gallery/footer-widget-gallery-img-3.jpg"
+                                            <img src="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-3.jpg')}}" alt="">
+                                            <a href="assets/images/gallery/footer-widget-gallery-img-3.jpg')}}"
                                                 class="img-popup"><span class="fab fa-instagram"></span></a>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/gallery/footer-widget-gallery-img-4.jpg" alt="">
-                                            <a href="assets/images/gallery/footer-widget-gallery-img-4.jpg"
+                                            <img src="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-4.jpg')}}" alt="">
+                                            <a href="assets/images/gallery/footer-widget-gallery-img-4.jpg')}}"
                                                 class="img-popup"><span class="fab fa-instagram"></span></a>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/gallery/footer-widget-gallery-img-5.jpg" alt="">
-                                            <a href="assets/images/gallery/footer-widget-gallery-img-5.jpg"
+                                            <img src="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-5.jpg')}}" alt="">
+                                            <a href="assets/images/gallery/footer-widget-gallery-img-5.jpg')}}"
                                                 class="img-popup"><span class="fab fa-instagram"></span></a>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/gallery/footer-widget-gallery-img-6.jpg" alt="">
-                                            <a href="assets/images/gallery/footer-widget-gallery-img-6.jpg"
+                                            <img src="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-6.jpg')}}" alt="">
+                                            <a href="assets/images/gallery/footer-widget-gallery-img-6.jpg')}}"
                                                 class="img-popup"><span class="fab fa-instagram"></span></a>
                                         </div>
                                     </li>
@@ -1855,7 +1631,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-1.png" width="94"
+                <a href="index.html" aria-label="logo image"><img src="{{asset('theme/assets/images/resources/logo-1.png')}}" width="94"
                         alt="" /></a>
             </div>
             <!-- /.logo-box -->
@@ -1907,39 +1683,38 @@
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="icon-right-arrow"></i></a>
 
 
-    <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
-    <script src="assets/vendors/odometer/odometer.min.js"></script>
-    <script src="assets/vendors/swiper/swiper.min.js"></script>
-    <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/countdown/countdown.min.js"></script>
-    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendors/bxslider/jquery.bxslider.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/vegas/vegas.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/vendors/timepicker/timePicker.js"></script>
-    <script src="assets/vendors/circleType/jquery.circleType.js"></script>
-    <script src="assets/vendors/circleType/jquery.lettering.min.js"></script>
-    <script src="assets/vendors/nice-select/jquery.nice-select.min.js"></script>
+    <script src="{{asset('theme/assets/vendors/jquery/jquery-3.6.0.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/jarallax/jarallax.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/jquery-appear/jquery.appear.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/jquery-validate/jquery.validate.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/nouislider/nouislider.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/odometer/odometer.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/swiper/swiper.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/tiny-slider/tiny-slider.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/wnumb/wNumb.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/wow/wow.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/isotope/isotope.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/countdown/countdown.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/owl-carousel/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/bxslider/jquery.bxslider.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/bootstrap-select/js/bootstrap-select.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/vegas/vegas.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/jquery-ui/jquery-ui.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/timepicker/timePicker.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/circleType/jquery.circleType.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/circleType/jquery.lettering.min.js')}}"></script>
+    <script src="{{asset('theme/assets/vendors/nice-select/jquery.nice-select.min.js')}}"></script>
 
 
 
 
     <!-- template js -->
-    <script src="assets/js/govity.js"></script>
+    <script src="{{asset('theme/assets/js/govity.js')}}"></script>
 </body>
 
 
-<!-- Mirrored from layerdrops.com/govity/main-html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Mar 2023 15:12:16 GMT -->
 </html>

@@ -95,7 +95,7 @@
   --govity-gray-rgb: 136, 136, 136;
   --govity-white: #ffffff;
   --govity-white-rgb: 255, 255, 255;
-  --govity-base: #0ca554;
+  --govity-base: #31905F;
   --govity-base-rgb: 12, 165, 84;
   --govity-black: #151515;
   --govity-black-rgb: 21, 21, 21;
@@ -529,7 +529,11 @@ ul {
   align-items: center;
   justify-content: center;
   background-color: var(--govity-black);
-  padding: 49px 80px;
+  /* padding: 9px 1px; */
+  /* max-width:142px; */
+}
+.main-menu__logo img{
+    max-height:142px;
 }
 
 .main-menu {
@@ -2061,6 +2065,27 @@ ul {
 .main-slider__shape-3 img {
   width: auto;
 }
+
+.main-slider__shape-4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    mix-blend-mode: soft-light;
+    transform: translateY(400px);
+    opacity: 0;
+    z-index: 1;
+  }
+
+  .active .main-slider__shape-4 {
+    opacity: 0.1;
+    transform: translateX(0px);
+    transition: all 1000ms ease;
+    transition-delay: 2000ms;
+  }
+
+  .main-slider__shape-4 img {
+    width: auto;
+  }
 
 .main-slider__meta-box {
   position: absolute;
