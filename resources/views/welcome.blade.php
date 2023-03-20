@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Kenya Veterans For Peace || Welcome To Kenya Veterans For Peace </title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png')}}" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png')}}" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png')}}" />
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('theme/assets/images/favicons/apple-touch-icon.png')}}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('theme/assets/images/favicons/favicon-32x32.png')}}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('theme/assets/images/favicons/favicon-16x16.png')}}" />
+    <link rel="manifest" href="{{asset('theme/assets/images/favicons/site.webmanifest')}}" />
     <meta name="description" content="govity HTML 5 Template " />
 
     <!-- fonts -->
@@ -348,42 +348,42 @@
                                     <li>
                                         <div class="footer-widget__gallery-img">
                                             <img src="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-1.jpg')}}" alt="">
-                                            <a href="assets/images/gallery/footer-widget-gallery-img-1.jpg')}}"
+                                            <a href="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-1.jpg')}}"
                                                 class="img-popup"><span class="fab fa-instagram"></span></a>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="footer-widget__gallery-img">
                                             <img src="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-1.jpg')}}" alt="">
-                                            <a href="assets/images/gallery/footer-widget-gallery-img-1.jpg')}}"
+                                            <a href="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-1.jpg')}}"
                                                 class="img-popup"><span class="fab fa-instagram"></span></a>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="footer-widget__gallery-img">
                                             <img src="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-1.jpg')}}" alt="">
-                                            <a href="assets/images/gallery/footer-widget-gallery-img-1.jpg')}}"
+                                            <a href="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-1.jpg')}}"
                                                 class="img-popup"><span class="fab fa-instagram"></span></a>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="footer-widget__gallery-img">
                                             <img src="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-1.jpg')}}" alt="">
-                                            <a href="assets/images/gallery/footer-widget-gallery-img-1.jpg')}}"
+                                            <a href="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-1.jpg')}}"
                                                 class="img-popup"><span class="fab fa-instagram"></span></a>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="footer-widget__gallery-img">
                                             <img src="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-1.jpg')}}" alt="">
-                                            <a href="assets/images/gallery/footer-widget-gallery-img-1.jpg')}}"
+                                            <a href="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-1.jpg')}}"
                                                 class="img-popup"><span class="fab fa-instagram"></span></a>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="footer-widget__gallery-img">
                                             <img src="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-1.jpg')}}" alt="">
-                                            <a href="assets/images/gallery/footer-widget-gallery-img-1.jpg')}}"
+                                            <a href="{{asset('theme/assets/images/gallery/footer-widget-gallery-img-1.jpg')}}"
                                                 class="img-popup"><span class="fab fa-instagram"></span></a>
                                         </div>
                                     </li>
@@ -398,7 +398,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text">© Copyright {{date('Y')}} by <a href="#">Kenya Veterans For Peace</a>
+                                <p class="site-footer__bottom-text">© Copyright {{date('Y')}} by <a href="#">Kenya Veterans For Peace</a> | All Rights Reserved
                                 </p>
                             </div>
                         </div>
