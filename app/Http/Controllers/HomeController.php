@@ -25,4 +25,24 @@ class HomeController extends Controller
     {
         return view('front.index');
     }
+
+    public function who_we_are()
+    {
+        return view('front.who_we_are');
+    }
+
+    public function our_history()
+    {
+        return view('front.our_history');
+    }
+
+    public function contact_us()
+    {
+        return view('front.contact_us');
+    }
+
+
+
+
+
 }

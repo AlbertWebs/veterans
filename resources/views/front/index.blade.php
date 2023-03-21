@@ -59,4 +59,102 @@
     </div>
 </section>
 <!-- Main Sllider Start -->
+
+
+ <!--About Two Start-->
+ <section class="about-two">
+    <div class="about-two__shape-3 float-bob-x"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="about-one__img">
+                    <br><br>
+                    <img style="border-radius:10px;" src="{{asset('uploads/images/SFax6fl6duKICC_nairobi_kenya.jpg')}}" alt="Kenya Veterans For Peace">
+                </div>
+                {{-- <div class="about-two__left">
+                    <div class="about-two__img-box">
+                        <div class="about-two__img">
+                            <img src="{{asset('uploads/images/index.jpeg')}}" alt="">
+                        </div>
+                        <div class="about-two__img-2">
+                            <img src="{{asset('theme/assets/images/resources/about-two-img-2.jpg')}}" alt="">
+                        </div>
+                        <div class="about-two__shape-1"></div>
+                        <div class="about-two__shape-2 img-bounce">
+                            <img src="{{asset('theme/assets/images/shapes/about-two-shape-1.png')}}" alt="">
+                        </div>
+                    </div>
+                </div> --}}
+            </div>
+            <div class="col-xl-6">
+                <div class="about-two__right">
+                    <div class="section-title text-left">
+                        <div class="section-title__icon">
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <span class="section-title__tagline">Welcome to KVP</span>
+                        <h2 class="section-title__title">Peace  • Security  • Development</h2>
+                    </div>
+                    <p class="about-two__text-1">AMANI KWA WOTE</p>
+                    <p class="about-two__text-2">Kenya Veterans for Peace (KVP) is a Kenya Defense Forces (KDF) Military Veterans
+                        Organization Registered In Kenya Under The Society Acts Cap 108 Of The Laws Of Kenya
+                        With Headquarters At Nairobi; Nyayo House. The Organization Draws Membership From
+                        The Retired Military Personnel In All Sister Services Of Kenya Defense Forces.
+                        <strong>
+                            We Have
+                                Played A Major Role In United Nations (UN)/Africa Union (AU) Peace Keeping, Peace
+                                Building, Security Operations, Anti-Human Trafficking Operations, Climate Change And
+                                Development Programs In Various Areas Across The Country, Regionally And Globally In
+                                And Out Of Active Service With Tangible Outcomes Of Restoring Peace, Security,
+                                Restoring Human Dignity, Empowering Communities And Developmental Agenda For A
+                                Prosperous Kenya And The World At Large In Line With Millennium Development
+                                Goals(MDGs) And Sustainable Development Goals(SDGs).
+                        </strong>
+                    </p>
+                    {{-- <div class="about-two__progress">
+                        <div class="about-two__progress-single">
+                            <h4 class="about-two__progress-title">Consultation</h4>
+                            <div class="bar">
+                                <div class="bar-inner count-bar" data-percent="90%">
+                                    <div class="count-text">90%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> --}}
+                    {{-- <ul class="about-two__points list-unstyled">
+                        <li>
+                            <div class="about-two__points-title-box">
+                                <div class="icon">
+                                    <span class="fa fa-arrow-right"></span>
+                                </div>
+                                <div class="title">
+                                    <h3>Goverment agencies</h3>
+                                </div>
+                            </div>
+                            <p class="about-two__points-text">Lorem ipsum dolor sit amet not is consectetur
+                                notted.</p>
+                        </li>
+                        <li>
+                            <div class="about-two__points-title-box">
+                                <div class="icon">
+                                    <span class="fa fa-arrow-right"></span>
+                                </div>
+                                <div class="title">
+                                    <h3>Just explore city</h3>
+                                </div>
+                            </div>
+                            <p class="about-two__points-text">Lorem ipsum dolor sit amet not is consectetur
+                                notted.</p>
+                        </li>
+                    </ul> --}}
+
+                    <div class="event-two__btn-box">
+                        <a href="{{url('/')}}/who-we-are" class="event-two__btns thm-btn">Discover More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--About Two End-->
 @endsection

@@ -13,12 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/who-we-are', [App\Http\Controllers\HomeController::class, 'who_we_are'])->name('who-we-are');
+Route::get('/our-history', [App\Http\Controllers\HomeController::class, 'our_history'])->name('our-history');
+Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact_us'])->name('contact-us');
 
 Route::group(['prefix'=>'front','as'=>'front.'], function(){
    Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+   Route::get('/who-we-are', [App\Http\Controllers\HomeController::class, 'who_we_are'])->name('who-we-are');
+   Route::get('/our-history', [App\Http\Controllers\HomeController::class, 'our_history'])->name('our-history');
 });
 
 Auth::routes();

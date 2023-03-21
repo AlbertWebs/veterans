@@ -99,9 +99,10 @@
                                         </li>
                                     </ul>
                                     <ul class="list-unstyled main-menu__top-menu">
-                                        <li><a href="#">Mission</a></li>
-                                        <li><a href="#">Vision</a></li>
-                                        <li><a href="#">Core Values</a></li>
+                                        <li><a href="{{url('/')}}/who-we-are/#mission">Mission</a></li>
+                                        <li><a href="{{url('/')}}/who-we-are/#vision">Vision</a></li>
+                                        <li><a href="{{url('/')}}/who-we-are/#goals">Goals</a></li>
+                                        <li><a href="{{url('/')}}/our-history">History</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -115,7 +116,7 @@
                                             <a onclick="return alert('Work in progress....')" href="#">Home</a>
                                         </li>
                                         <li>
-                                            <a onclick="return alert('Work in progress....')" href="#">Who we are</a>
+                                            <a onclick="return alert('Work in progress....')" href="{{url('/')}}/who-we-are">Who we are</a>
                                         </li>
                                         <li>
                                             <a onclick="return alert('Work in progress....')" href="#">Leadership</a>
@@ -130,7 +131,7 @@
                                             <a onclick="return alert('Work in progress....')" href="#">Veterans</a>
                                         </li>
                                         <li>
-                                            <a onclick="return alert('Work in progress....')" href="#">Contact</a>
+                                            <a onclick="return alert('Work in progress....')" href="{{url('/')}}/contact-us">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -141,8 +142,8 @@
                                         </div>
                                         <div class="main-menu__call-content">
                                             <p class="main-menu__call-sub-title">Call Anytime</p>
-                                            <h5 class="main-menu__call-number"><a href="tel:9212340800">+92 (1234)
-                                                    0800</a></h5>
+                                            <h5 class="main-menu__call-number"><a href="tel:9212340800">+254 (7230)
+                                                    14032</a></h5>
                                         </div>
                                     </div>
                                     <div class="main-menu__search-box">
@@ -187,7 +188,7 @@
         <!--Site Footer Start-->
         <footer class="site-footer">
             <div class="site-footer__img">
-                <img src="{{url('/')}}/uploads/logo/logo-trimmed.png" alt="">
+                {{-- <img width="100" src="{{url('/')}}/uploads/logo/logo-trimmed.png" alt=""> --}}
             </div>
             <div class="container">
                 <div class="site-footer__top">
