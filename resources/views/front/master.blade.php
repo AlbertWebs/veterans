@@ -113,10 +113,10 @@
                                     <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                     <ul class="main-menu__list">
                                         <li>
-                                            <a onclick="return alert('Work in progress....')" href="#">Home</a>
+                                            <a href="{{url('/')}}">Home</a>
                                         </li>
                                         <li>
-                                            <a onclick="return alert('Work in progress....')" href="{{url('/')}}/who-we-are">Who we are</a>
+                                            <a href="{{url('/')}}/who-we-are">Who we are</a>
                                         </li>
                                         <li>
                                             <a onclick="return alert('Work in progress....')" href="#">Leadership</a>
@@ -127,11 +127,11 @@
                                         <li>
                                             <a onclick="return alert('Work in progress....')" href="#">Regions</a>
                                         </li>
+                                        {{-- <li>
+                                            <a onclick="return alert('Work in progress....')" href="#">History</a>
+                                        </li> --}}
                                         <li>
-                                            <a onclick="return alert('Work in progress....')" href="#">Veterans</a>
-                                        </li>
-                                        <li>
-                                            <a onclick="return alert('Work in progress....')" href="{{url('/')}}/contact-us">Contact</a>
+                                            <a href="{{url('/')}}/contact-us">Contact</a>
                                         </li>
                                     </ul>
                                 </div>

@@ -145,7 +145,69 @@
         </section>
         <!--About Four End-->
 
-
+        <!--Counter Three Start-->
+        <section class="counter-three">
+            <div class="counter-two__bg" style="background-image: url(assets/images/backgrounds/counter-two-bg.jpg);">
+            </div>
+            <div class="container">
+                <div class="section-title text-center">
+                    <div class="section-title__icon">
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <span class="section-title__tagline">KVP</span>
+                    <h2 class="section-title__title">Mission Mandate Thematic.</h2>
+                </div>
+                <div class="counter-two__inner">
+                    <p>
+                        As An Organization, We Feel Obliged And Responsible Into Giving Back To The Society With
+                        Our Current Status Of Professional Experience, Skills, Training And Expertise.
+                        Millennium Development Goals And Sustainable Development Goals Success Story
+                        Require Concrete, Strategic And Systematic Multi-Sectorial Approach On Peace Building,
+                        Security, Anti-Human Trafficking, Climate Change And Development Objectively Which
+                        Anchor Each Other And Inter-Relate Progressively.<br><br>
+                        In Human Trafficking, Kenya is Classified As Transit, Destination And Source. This Being
+                        The Case, We Need Serious Approach, Measures And Investment to Help Curb The
+                        Subject.<br><br>
+                        Terrorism, Insecurity, Violence, Conflicts, Tribal Clashes, Human Trafficking, Climate
+                        Change And Development Magnetization Having Become Both A National And An
+                        International Challenge To Many Nations And States, Kenya Veterans For Peace
+                        Organization Having Resolved Not To Take Spectators Position; Support All Stake Holders
+                        Organs In Combating, Fighting, Neutralizing And Mitigating All Subject Menace Impact And
+                        Effect Against The Peace-Loving Kenyans, Citizens And Neighboring Countries, With Their
+                        Gained Experience As Professional Veterans, While Operating Into Assisting Other Relevant
+                        Government Departments, As Alternative Supplementary Second Tier National, Regional,
+                        Continental And Global Defender, Champion And Ambassadors Thereof.<br>
+                    </p>
+                    {{-- <ul class="counter-two__list list-unstyled">
+                        <li>
+                            <div class="counter-two__count">
+                                <h3 class="odometer" data-count="82">00</h3>
+                                <span class="">k</span>
+                            </div>
+                            <p class="counter-two__text">Total people lived
+                                <br> in our city</p>
+                        </li>
+                        <li>
+                            <div class="counter-two__count">
+                                <h3 class="odometer" data-count="4">00</h3>
+                                <span class="">th</span>
+                            </div>
+                            <p class="counter-two__text">Average home costs
+                                <br> of ownership</p>
+                        </li>
+                        <li>
+                            <div class="counter-two__count">
+                                <h3 class="odometer" data-count="26">00</h3>
+                                <span class="">%</span>
+                            </div>
+                            <p class="counter-two__text">Private & domestic
+                                <br> garden land</p>
+                        </li>
+                    </ul> --}}
+                </div>
+            </div>
+        </section>
+        <!--Counter Three End-->
 
         <!--Tesimonial Three Start-->
         <section class="testimonial-three">
@@ -197,10 +259,10 @@
                                     <div class="testimonial-three__single">
                                         <div class="testimonial-three__single-inner">
                                             <div class="testimonial-three__shape-1">
-                                                <img src="assets/images/shapes/testimonial-three-shape-1.png" alt="">
+                                                <img src="{{asset('theme/assets/images/shapes/testimonial-three-shape-1.png')}}" alt="">
                                             </div>
                                             <div class="testimonial-three__shape-2">
-                                                <img src="assets/images/shapes/testimonial-three-shape-2.png" alt="">
+                                                <img src="{{asset('theme/assets/images/shapes/testimonial-three-shape-2.png')}}" alt="">
                                             </div>
                                             <div class="testimonial-three__quote">
                                                 <span class="icon-quote"></span>
@@ -209,7 +271,7 @@
                                             <div class="testimonial-three__client-info">
                                                 <div class="testimonial-three__client-img-box">
                                                     <div class="testimonial-three__client-img">
-                                                        <img src="assets/images/testimonial/testimonial-3-1.jpg" alt="">
+                                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
                                                     </div>
                                                 </div>
                                                 <div class="testimonial-three__client-content">
@@ -232,10 +294,10 @@
                                     <div class="testimonial-three__single">
                                         <div class="testimonial-three__single-inner">
                                             <div class="testimonial-three__shape-1">
-                                                <img src="assets/images/shapes/testimonial-three-shape-1.png" alt="">
+                                                <img src="{{asset('theme/assets/images/shapes/testimonial-three-shape-1.png')}}" alt="">
                                             </div>
                                             <div class="testimonial-three__shape-2">
-                                                <img src="assets/images/shapes/testimonial-three-shape-2.png" alt="">
+                                                <img src="{{asset('theme/assets/images/shapes/testimonial-three-shape-2.png')}}" alt="">
                                             </div>
                                             <div class="testimonial-three__quote">
                                                 <span class="icon-quote"></span>
@@ -244,7 +306,7 @@
                                             <div class="testimonial-three__client-info">
                                                 <div class="testimonial-three__client-img-box">
                                                     <div class="testimonial-three__client-img">
-                                                        <img src="assets/images/testimonial/testimonial-3-1.jpg" alt="">
+                                                        <img src="{{url('/')}}/uploads/team/nelson.jpg" alt="">
                                                     </div>
                                                 </div>
                                                 <div class="testimonial-three__client-content">
@@ -267,10 +329,10 @@
                                     <div class="testimonial-three__single">
                                         <div class="testimonial-three__single-inner">
                                             <div class="testimonial-three__shape-1">
-                                                <img src="assets/images/shapes/testimonial-three-shape-1.png" alt="">
+                                                <img src="{{asset('theme/assets/images/shapes/testimonial-three-shape-1.png')}}" alt="">
                                             </div>
                                             <div class="testimonial-three__shape-2">
-                                                <img src="assets/images/shapes/testimonial-three-shape-2.png" alt="">
+                                                <img src="{{asset('theme/assets/images/shapes/testimonial-three-shape-2.png')}}" alt="">
                                             </div>
                                             <div class="testimonial-three__quote">
                                                 <span class="icon-quote"></span>
@@ -280,7 +342,7 @@
                                             <div class="testimonial-three__client-info">
                                                 <div class="testimonial-three__client-img-box">
                                                     <div class="testimonial-three__client-img">
-                                                        <img src="assets/images/testimonial/testimonial-3-1.jpg" alt="">
+                                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
                                                     </div>
                                                 </div>
                                                 <div class="testimonial-three__client-content">
@@ -310,50 +372,70 @@
         </section>
         <!--Tesimonial Three End-->
 
-        <!--Counter Three Start-->
-        <section class="counter-three">
-            <div class="counter-two__bg" style="background-image: url(assets/images/backgrounds/counter-two-bg.jpg);">
+        <section class="event-two">
+            <div class="event-two__img">
+                <img src="{{asset('uploads/images/SFax6fl6duKICC_nairobi_kenya.jpg')}}" alt="">
             </div>
             <div class="container">
-                <div class="section-title text-center">
-                    <div class="section-title__icon">
-                        <span class="fa fa-star"></span>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="event-two__left">
+                            <div class="event-two__left-inner">
+                                <div class="section-title text-left">
+                                    <div class="section-title__icon">
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                    <span class="section-title__tagline">KVP</span>
+                                    <h2 class="section-title__title">Mission Mandate Implementing Agency Capacity
+                                    </h2>
+                                </div>
+
+                                <p class="event-two__text-3">
+                                    This Mission Mandate Is Implemented By The Kenya Veterans For Peace Which Comprises
+                                    Of Kenya Defense Forces Military Veteran Officers, Service Men And Women. The Kenya
+                                    Veterans For Peace Being Implementing Agency Has Rich Background Experiences And
+                                    Expatriate Having Implemented Such Missions And Projects At National, Regional And
+                                    International Levels With Success Story And Detailed Tangible Results In Record.
+                                    The Success Of Our Mission Mandate Involves The Proponent Working With The Local
+                                    Community And Stakeholders To Achieve All Objectives For Peace, Security, Ant-Human
+                                    Trafficking, Climate Change And development. The Organization Being An Experienced
+                                    Professional Security Entity For Honorable Retirees Of Diverse Training From The Kenya
+                                    Defense Forces, Its Members Are Currently Operating As Peace Ambassadors At Various
+                                    Counties Of Residences After The Recent Undertaking Of 2022 General Elections As An
+                                    Independent Election And Boundaries Commission (IEBC) Accredited Election Observers And Civic Education Providers. We Are Ready, Available And Carrying On With Our
+                                    Organization Mission Mandate Where Our Members Are Domiciled Progressively,
+                                </p>
+
+                                {{-- <div class="event-two__btn-box">
+                                    <a href="events.html" class="event-two__btn thm-btn">Discover More</a>
+                                </div> --}}
+                            </div>
+                        </div>
                     </div>
-                    <span class="section-title__tagline">city in numbers</span>
-                    <h2 class="section-title__title">We help you solve your
-                        <br> city government problems</h2>
-                </div>
-                <div class="counter-two__inner">
-                    <ul class="counter-two__list list-unstyled">
-                        <li>
-                            <div class="counter-two__count">
-                                <h3 class="odometer" data-count="82">00</h3>
-                                <span class="">k</span>
-                            </div>
-                            <p class="counter-two__text">Total people lived
-                                <br> in our city</p>
-                        </li>
-                        <li>
-                            <div class="counter-two__count">
-                                <h3 class="odometer" data-count="4">00</h3>
-                                <span class="">th</span>
-                            </div>
-                            <p class="counter-two__text">Average home costs
-                                <br> of ownership</p>
-                        </li>
-                        <li>
-                            <div class="counter-two__count">
-                                <h3 class="odometer" data-count="26">00</h3>
-                                <span class="">%</span>
-                            </div>
-                            <p class="counter-two__text">Private & domestic
-                                <br> garden land</p>
-                        </li>
-                    </ul>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="event-two__right">
+                                <div class="section-title text-right">
+                                    <div class="section-title__icon">
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                    <span class="section-title__tagline">KVP</span>
+                                    <h2 class="section-title__title">The Imminence Potential Terror Groups To Focus On And Examine
+                                    </h2>
+                                </div>
+
+                                <p class="event-two__text-2">
+                                    The Terrorists ‘Groups’ Imminence The KVP Organization Is Earmarking And Intending To
+                                    Focus On And Examine Are; Local Criminal Assorted Groups, Radical Terror Groups, Al-
+                                    Shabaab, A-Qaida Pockets, Oromo Liberation Front (OLF), Northern Frontier District And
+                                    Tigray People Liberation Front (TPLF) Etc.
+                                </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <!--Counter Three End-->
+
+
 
         <!--Team Two Start-->
         <section class="team-two">
@@ -362,7 +444,7 @@
                     <div class="section-title__icon">
                         <span class="fa fa-star"></span>
                     </div>
-                    <span class="section-title__tagline">our team members</span>
+                    <span class="section-title__tagline">Executive Members</span>
                     <h2 class="section-title__title">Meet great city council
                         <br> members</h2>
                 </div>
@@ -372,140 +454,27 @@
                         <div class="col-xl-4 col-lg-4">
                             <div class="team-one__single">
                                 <div class="team-one__shape-1">
-                                    <img src="assets/images/shapes/team-one-shape-1.png" alt="">
+                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
                                 </div>
                                 <div class="team-one__img-box">
                                     <div class="team-one__img">
-                                        <img src="assets/images/team/team-1-1.jpg" alt="">
+                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="team-one__content">
-                                    <h3 class="team-one__name"><a href="team-details.html">Michale smith</a></h3>
-                                    <p class="team-one__sub-title">Mayor</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </div>
+                                    <h3 class="team-one__name"><a href="#">Bishop Robert Mbukua</a></h3>
+                                    <p class="team-one__sub-title">Excecutive Chairman</p>
+
                                 </div>
                             </div>
                         </div>
                         <!--Team One Single End-->
-                        <!--Team One Single Start-->
-                        <div class="col-xl-4 col-lg-4">
-                            <div class="team-one__single">
-                                <div class="team-one__shape-2">
-                                    <img src="assets/images/shapes/team-one-shape-2.png" alt="">
-                                </div>
-                                <div class="team-one__img-box">
-                                    <div class="team-one__img">
-                                        <img src="assets/images/team/team-1-2.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="team-one__content">
-                                    <h3 class="team-one__name"><a href="team-details.html">Jessica brown</a></h3>
-                                    <p class="team-one__sub-title">Mayor</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Team One Single End-->
-                        <!--Team One Single Start-->
-                        <div class="col-xl-4 col-lg-4">
-                            <div class="team-one__single">
-                                <div class="team-one__shape-3">
-                                    <img src="assets/images/shapes/team-one-shape-3.png" alt="">
-                                </div>
-                                <div class="team-one__img-box">
-                                    <div class="team-one__img">
-                                        <img src="assets/images/team/team-1-3.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="team-one__content">
-                                    <h3 class="team-one__name"><a href="team-details.html">Harold cooper</a></h3>
-                                    <p class="team-one__sub-title">City Developer</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Team One Single End-->
+
                     </div>
                 </div>
             </div>
         </section>
         <!--Team Two End-->
 
-        <!--Brand Four Start-->
-        <section class="brand-four">
-            <div class="container">
-                <div class="brand-one__title">
-                    <p>Our partners & suppoters</p>
-                </div>
-                <div class="brand-one__carousel thm-owl__carousel owl-theme owl-carousel" data-owl-options='{
-                    "items": 3,
-                    "margin": 30,
-                    "smartSpeed": 700,
-                    "loop":true,
-                    "autoplay": 6000,
-                    "nav":false,
-                    "dots":false,
-                    "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-                    "responsive":{
-                        "0":{
-                            "items":1
-                        },
-                        "768":{
-                            "items":3
-                        },
-                        "992":{
-                            "items": 5
-                        }
-                    }
-                }'>
-                    <!--Brand One Single-->
-                    <div class="brand-one__single">
-                        <div class="brand-one__img">
-                            <img src="assets/images/brand/brand-1-1.png" alt="">
-                        </div>
-                    </div>
-                    <!--Brand One Single-->
-                    <div class="brand-one__single">
-                        <div class="brand-one__img">
-                            <img src="assets/images/brand/brand-1-2.png" alt="">
-                        </div>
-                    </div>
-                    <!--Brand One Single-->
-                    <div class="brand-one__single">
-                        <div class="brand-one__img">
-                            <img src="assets/images/brand/brand-1-3.png" alt="">
-                        </div>
-                    </div>
-                    <!--Brand One Single-->
-                    <div class="brand-one__single">
-                        <div class="brand-one__img">
-                            <img src="assets/images/brand/brand-1-4.png" alt="">
-                        </div>
-                    </div>
-                    <!--Brand One Single-->
-                    <div class="brand-one__single">
-                        <div class="brand-one__img">
-                            <img src="assets/images/brand/brand-1-5.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <!-- If we need navigation buttons -->
-            </div>
-        </section>
-        <!--Brand Four End-->
+
 @endsection
