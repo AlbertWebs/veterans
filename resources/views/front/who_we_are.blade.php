@@ -445,8 +445,7 @@
                         <span class="fa fa-star"></span>
                     </div>
                     <span class="section-title__tagline">Executive Members</span>
-                    <h2 class="section-title__title">Meet great city council
-                        <br> members</h2>
+                    <h2 class="section-title__title">Meet Our Executives</h2>
                 </div>
                 <div class="team-one__inner">
                     <div class="row">
@@ -464,6 +463,46 @@
                                 <div class="team-one__content">
                                     <h3 class="team-one__name"><a href="#">Bishop Robert Mbukua</a></h3>
                                     <p class="team-one__sub-title">Excecutive Chairman</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--Team One Single End-->
+
+                        <!--Team One Single Start-->
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="team-one__single">
+                                <div class="team-one__shape-1">
+                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
+                                </div>
+                                <div class="team-one__img-box">
+                                    <div class="team-one__img">
+                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name"><a href="#">Dr. Nelson Sechere</a></h3>
+                                    <p class="team-one__sub-title">Excecutive Director</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--Team One Single End-->
+
+                        <!--Team One Single Start-->
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="team-one__single">
+                                <div class="team-one__shape-1">
+                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
+                                </div>
+                                <div class="team-one__img-box">
+                                    <div class="team-one__img">
+                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name"><a href="#">James Muriuki</a></h3>
+                                    <p class="team-one__sub-title">Vise Chairman</p>
 
                                 </div>
                             </div>
