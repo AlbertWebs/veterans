@@ -509,6 +509,126 @@
                         </div>
                         <!--Team One Single End-->
 
+                        <!--Team One Single Start-->
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="team-one__single">
+                                <div class="team-one__shape-1">
+                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
+                                </div>
+                                <div class="team-one__img-box">
+                                    <div class="team-one__img">
+                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name"><a href="#">Felistas Kathoni</a></h3>
+                                    <p class="team-one__sub-title">Secretary</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--Team One Single End-->
+
+                        <!--Team One Single Start-->
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="team-one__single">
+                                <div class="team-one__shape-1">
+                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
+                                </div>
+                                <div class="team-one__img-box">
+                                    <div class="team-one__img">
+                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name"><a href="#">Ibrahim Hussein </a></h3>
+                                    <p class="team-one__sub-title">Vise Secretary</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--Team One Single End-->
+
+                         <!--Team One Single Start-->
+                         <div class="col-xl-4 col-lg-4">
+                            <div class="team-one__single">
+                                <div class="team-one__shape-1">
+                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
+                                </div>
+                                <div class="team-one__img-box">
+                                    <div class="team-one__img">
+                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name"><a href="#">Samuel Ouko </a></h3>
+                                    <p class="team-one__sub-title">Treasurer</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--Team One Single End-->
+
+                        <!--Team One Single Start-->
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="team-one__single">
+                                <div class="team-one__shape-1">
+                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
+                                </div>
+                                <div class="team-one__img-box">
+                                    <div class="team-one__img">
+                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name"><a href="#">Rebecca Wanjiru </a></h3>
+                                    <p class="team-one__sub-title">V/Treasurer.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--Team One Single End-->
+
+                         <!--Team One Single Start-->
+                         <div class="col-xl-4 col-lg-4">
+                            <div class="team-one__single">
+                                <div class="team-one__shape-1">
+                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
+                                </div>
+                                <div class="team-one__img-box">
+                                    <div class="team-one__img">
+                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name"><a href="#">Awadh Aboud</a></h3>
+                                    <p class="team-one__sub-title">Chief of Navy Veterans.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--Team One Single End-->
+
+                         <!--Team One Single Start-->
+                         <div class="col-xl-4 col-lg-4">
+                            <div class="team-one__single">
+                                <div class="team-one__shape-1">
+                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
+                                </div>
+                                <div class="team-one__img-box">
+                                    <div class="team-one__img">
+                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name"><a href="#"> Dr Gideon Kiema</a></h3>
+                                    <p class="team-one__sub-title">Chief of Air force Veterans.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--Team One Single End-->
+
                     </div>
                 </div>
             </div>
