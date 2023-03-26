@@ -13,10 +13,10 @@
 
 
 
-                            <a class="quick-btn" href="{{url('/admin/allMessages')}}">
+                            <a class="quick-btn" href="{{url('/admin/members')}}">
                                 <i class="icon-envelope icon-2x"></i>
-                                <span>Messages</span>
-                                <span class="label label-success"><?php $Messages = DB::table('users')->get(); $Count = count($Messages); echo $Count ?></span>
+                                <span>Members</span>
+                                <span class="label label-success"><?php $Messages = DB::table('members')->get(); $Count = count($Messages); echo $Count ?></span>
                             </a>
 
 

@@ -122,7 +122,7 @@
                                             <a href="{{url('/')}}/who-we-are/#executives">Leadership</a>
                                         </li>
                                         <li>
-                                            <a onclick="return alert('Work in progress....')" href="#">Membership</a>
+                                            <a href="https://mod.go.ke/download/the-military-veterans-act-2022/">Military Veterans ACT</a>
                                         </li>
                                         <li>
                                             <a onclick="return alert('Work in progress....')" href="#">Regions</a>

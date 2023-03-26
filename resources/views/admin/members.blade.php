@@ -23,7 +23,7 @@
                 <div class="row">
                     <div class="col-lg-12">
 
-                        <center><h2> Leaders </h2></center>
+                        <center><h2> Members </h2></center>
 
                     </div>
                 </div>
@@ -53,31 +53,31 @@
                                                 <tr>
                                                     <th>No</th>
                                                     <th>Name</th>
-                                                    <th>Position</th>
+                                                    <th>Service Time</th>
                                                     <th>Image</th>
 
                                                     <th>Delete</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                            @foreach($Leadership as $value)
+                                            @foreach($Member as $value)
                                                 <tr class="odd gradeX">
                                                     <td>{{$value->id}}</td>
                                                     <td>{{$value->name}}</td>
-                                                    <td>{{$value->position}}</td>
+                                                    <td>{{$value->service}}</td>
 
-                                                    <td><center><img width="100" height="100" src="{{url('/')}}/uploads/leaderships/{{$value->image}}"></center></td>
+                                                    <td><center><img width="100" height="100" src="{{url('/')}}/uploads/members/{{$value->image}}"></center></td>
                                                     @if($value->id == 1)
                                                     <td class="center">
-                                                        <a onclick="return alert('You Cannot Delete The SupperAdmin')" href=""   class="btn btn-danger"><i class="icon-trash icon-white"></i> Del</a>
+                                                        <a onclick="return alert('You Cannot Delete The SupperAdmin')" href="{{url('/admin')}}/deleteMember/{{$value->id}}"   class="btn btn-danger"><i class="icon-trash icon-white"></i> Del</a>
                                                         <br><br>
-                                                        <a href="{{url('/admin')}}/editLeadership/{{$value->id}}"   class="btn btn-info"><i class="icon-pencil icon-white"></i> Edit</a>
+                                                        <a href="{{url('/admin')}}/editMember/{{$value->id}}"   class="btn btn-info"><i class="icon-pencil icon-white"></i> Edit</a>
                                                     </td>
                                                     @else
                                                     <td class="center">
-                                                        <a onclick="return confirm('Delete This Person?')" href="{{url('/admin')}}/deleteLeadership/{{$value->id}}"   class="btn btn-danger"><i class="icon-trash icon-white"></i> Del</a>
+                                                        <a onclick="return confirm('Delete This Person?')" href="{{url('/admin')}}/deleteMember/{{$value->id}}"   class="btn btn-danger"><i class="icon-trash icon-white"></i> Del</a>
                                                         <br><br>
-                                                        <a  href="{{url('/admin')}}/editLeadership/{{$value->id}}"   class="btn btn-info"><i class="icon-pencil icon-white"></i> Edit</a>
+                                                        <a  href="{{url('/admin')}}/editMember/{{$value->id}}"   class="btn btn-info"><i class="icon-pencil icon-white"></i> Edit</a>
                                                     </td>
                                                     @endif
                                                 </tr>

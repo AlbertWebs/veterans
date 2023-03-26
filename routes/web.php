@@ -35,6 +35,13 @@ Route::group(['prefix'=>'admin'], function(){
    Route::get('/deleteLeadership/{id}', [App\Http\Controllers\AdminsController::class, 'deleteLeadership'])->name('admin.deleteLeadership')->middleware('is_admin');
    Route::get('/editLeadership/{id}', [App\Http\Controllers\AdminsController::class, 'editLeadership'])->name('admin.editLeadership')->middleware('is_admin');
    Route::post('/edit_Leadership/{id}', [App\Http\Controllers\AdminsController::class, 'edit_Leadership'])->name('admin.edit_Leadership')->middleware('is_admin');
+
+   Route::get('/addMember', [App\Http\Controllers\AdminsController::class, 'addMember'])->name('admin.addMember')->middleware('is_admin');
+   Route::post('/add_Member', [App\Http\Controllers\AdminsController::class, 'add_Member'])->name('admin.add_Member')->middleware('is_admin');
+   Route::get('/members', [App\Http\Controllers\AdminsController::class, 'members'])->name('admin.members')->middleware('is_admin');
+   Route::get('/deleteMember/{id}', [App\Http\Controllers\AdminsController::class, 'deleteMember'])->name('admin.deleteMember')->middleware('is_admin');
+   Route::get('/editMember/{id}', [App\Http\Controllers\AdminsController::class, 'editMember'])->name('admin.editMember')->middleware('is_admin');
+   Route::post('/edit_Member/{id}', [App\Http\Controllers\AdminsController::class, 'edit_Member'])->name('admin.edit_Member')->middleware('is_admin');
 });
 
 Route::group(['prefix'=>'members','as'=>'members'], function(){
