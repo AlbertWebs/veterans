@@ -119,7 +119,7 @@
                                             <a href="{{url('/')}}/who-we-are">Who we are</a>
                                         </li>
                                         <li>
-                                            <a onclick="return alert('Work in progress....')" href="#">Leadership</a>
+                                            <a href="{{url('/')}}/who-we-are/#executives">Leadership</a>
                                         </li>
                                         <li>
                                             <a onclick="return alert('Work in progress....')" href="#">Membership</a>
@@ -210,7 +210,7 @@
                 </div>
                 <div class="site-footer__middle">
                     <div class="row">
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="footer-widget__column footer-widget__Contact">
                                 <div class="footer-widget__title-box">
                                     <h3 class="footer-widget__title">Contact</h3>
@@ -284,7 +284,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="500ms">
+                        {{-- <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="500ms">
                             <div class="footer-widget__column footer-widget__gallery">
                                 <div class="footer-widget__title-box">
                                     <h3 class="footer-widget__title">Gallery</h3>
@@ -334,7 +334,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>

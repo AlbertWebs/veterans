@@ -34,6 +34,11 @@
                                 <span class="section-title__tagline">Kenya Venterans For Peace(KVP)</span>
                                 <h2 class="section-title__title">About Us</h2>
                             </div>
+                                 {{--  --}}
+                                 <p id="mission">
+                                    <p id="vision">
+                                    <p id="goals">
+                                    {{--  --}}
                             <p class="about-four__text">
                                 Kenya Veterans for Peace (KVP) is a Kenya Defense Forces (KDF) Military Veterans
                                 Organization Registered In Kenya Under The Society Acts Cap 108 Of The Laws Of Kenya
@@ -48,47 +53,15 @@
                                 Goals(MDGs) And Sustainable Development Goals(SDGs).
                                 <br><br>
 
-                                Kenya Veterans For Peace Founded After 2007/ 2008 Post Election Violence After Meeting
-                                H.E Kofi Annan That He Also Commissioned The Team Via The Government Leadership To
-                                Embark On Peace Building Mission. We Gained Our Skills And Professional Expertise On
-                                Peace Keeping In Bosnia, Afghanistan, Eritrea, South Sudan, DRC, Somalia, Sierra Leone,
-                                Iraq, Iran And Many Other Countries In The World,
-                                The Organization Main Role Is To Support The President’s Agenda , Government Of The
-                                Day, State, Non-State And Society Through Service Out Of Active Service To The Nation In
-                                Peace, Security, Anti-Human Trafficking, Climate Change And Development Matters On
-                                Peace Building, Overt/Covert/Undercover Intelligence Services, Security Surveillance, Early
-                                Warning Systems On National Security Threats, Counter-Terrorism, Non-Violent
-                                Reclamation/Disarmament Of Illegal Small Arms And Light Weapons,
-                                Disaster/Emergency Management Services, Community Policing And Hate Speech
-                                Monitoring Using Our Organizational Structure For A Peaceful Coexistence Among
-                                Kenyan Communities And Across The Borders And Development.
-                                This Organization Has Successfully Participated In Anti-Human Trafficking, Counter-
-                                Human Trafficking And Under Cover Intelligence Human Trafficking Operations.
-                                <br><br>
-                                On Climate Change, KVP Members Run Tree Planting/Afforestation Programs Throughout
-                                The Country, Conducts Civic Education Programs On Climate Change
-                                Mitigation/Measures And Participated In Nairobi River Regeneration/Cleaning Programs
-                                In 2008-2011 In Conjunction With Interior, Environment Ministries And Martin Luther King
-                                111, A Task We Are Ready To Undertake With The Relevant Stake Holders If Engaged,
-                                Given Chance, Support And Goodwill.
-                                <br><br>
-                                On Development Pillar, We Are Accredited General Elections Observers And Civic
-                                Education Providers With Independent Electoral And Boundaries Commission Having
-                                Participated In the Just Concluded August 09, 2022 General Elections, Offer Scientific
-                                Opinion Poll Services And Governance, Development Strategic And Consultancy Services.
-                                The Organization Has an Effective Operational Leadership Structure That Runs From
-                                National Office To The Grassroots At Regional, County, Sub-County And Ward Levels. We
-                                Believe in God, The Supreme Constitutionalism, Strong Ethical Leadership, The Rule Of Law
-                                And Inclusivity As We Equally Uphold Our Core Values To Steer Veterans Vision, Mission
-                                And Mandate Accordingly.
-                                <br><br>
-                                As A Non-Profit and Volunteer Service Organization, We Look Forward To Having You As
-                                Our Special Donor, Partner And A Goodwill Pillar To Enable Us Contribute To The Current
-                                And Future Peace, Security, Anti Human Trafficking, Climate Change And Development Of
-                                This Great Nation, Region And Global Society Respectively.<br><br>
+                                <div class="about-four__btn-box">
+                                    <a href="{{url('/')}}/who-we-are/explore" class="about-four__btn thm-btn">Learn More</a>
+                                </div>
+
+
 
 
                             </p>
+                            <hr>
                             <ul class="about-four__points list-unstyled">
                                 <li>
                                     <div class="icon">
@@ -377,6 +350,7 @@
                 <img src="{{asset('uploads/images/SFax6fl6duKICC_nairobi_kenya.jpg')}}" alt="">
             </div>
             <div class="container">
+
                 <div class="row">
                     <div class="col-xl-6 col-lg-6">
                         <div class="event-two__left">
@@ -432,6 +406,7 @@
                         </div>
                     </div>
                 </div>
+                <div id="executives"></div>
             </div>
         </section>
 
@@ -449,6 +424,10 @@
                 </div>
                 <div class="team-one__inner">
                     <div class="row">
+                        <?php
+                           $Leadership = App\Models\Leadership::all();
+                        ?>
+                        @foreach ($Leadership as $leadership)
                         <!--Team One Single Start-->
                         <div class="col-xl-4 col-lg-4">
                             <div class="team-one__single">
@@ -457,177 +436,18 @@
                                 </div>
                                 <div class="team-one__img-box">
                                     <div class="team-one__img">
-                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
+                                        <img src="{{url('/')}}/uploads/leaderships/{{$leadership->image}}" alt="">
                                     </div>
                                 </div>
                                 <div class="team-one__content">
-                                    <h3 class="team-one__name"><a href="#">Bishop Robert Mbukua</a></h3>
-                                    <p class="team-one__sub-title">Excecutive Chairman</p>
+                                    <h3 class="team-one__name"><a href="#">{{$leadership->name}}</a></h3>
+                                    <p class="team-one__sub-title">{{$leadership->position}}</p>
 
                                 </div>
                             </div>
                         </div>
                         <!--Team One Single End-->
-
-                        <!--Team One Single Start-->
-                        <div class="col-xl-4 col-lg-4">
-                            <div class="team-one__single">
-                                <div class="team-one__shape-1">
-                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
-                                </div>
-                                <div class="team-one__img-box">
-                                    <div class="team-one__img">
-                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="team-one__content">
-                                    <h3 class="team-one__name"><a href="#">Dr. Nelson Sechere</a></h3>
-                                    <p class="team-one__sub-title">Excecutive Director</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--Team One Single End-->
-
-                        <!--Team One Single Start-->
-                        <div class="col-xl-4 col-lg-4">
-                            <div class="team-one__single">
-                                <div class="team-one__shape-1">
-                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
-                                </div>
-                                <div class="team-one__img-box">
-                                    <div class="team-one__img">
-                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="team-one__content">
-                                    <h3 class="team-one__name"><a href="#">James Muriuki</a></h3>
-                                    <p class="team-one__sub-title">Vise Chairman</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--Team One Single End-->
-
-                        <!--Team One Single Start-->
-                        <div class="col-xl-4 col-lg-4">
-                            <div class="team-one__single">
-                                <div class="team-one__shape-1">
-                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
-                                </div>
-                                <div class="team-one__img-box">
-                                    <div class="team-one__img">
-                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="team-one__content">
-                                    <h3 class="team-one__name"><a href="#">Felistas Kathoni</a></h3>
-                                    <p class="team-one__sub-title">Secretary</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--Team One Single End-->
-
-                        <!--Team One Single Start-->
-                        <div class="col-xl-4 col-lg-4">
-                            <div class="team-one__single">
-                                <div class="team-one__shape-1">
-                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
-                                </div>
-                                <div class="team-one__img-box">
-                                    <div class="team-one__img">
-                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="team-one__content">
-                                    <h3 class="team-one__name"><a href="#">Ibrahim Hussein </a></h3>
-                                    <p class="team-one__sub-title">Vise Secretary</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--Team One Single End-->
-
-                         <!--Team One Single Start-->
-                         <div class="col-xl-4 col-lg-4">
-                            <div class="team-one__single">
-                                <div class="team-one__shape-1">
-                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
-                                </div>
-                                <div class="team-one__img-box">
-                                    <div class="team-one__img">
-                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="team-one__content">
-                                    <h3 class="team-one__name"><a href="#">Samuel Ouko </a></h3>
-                                    <p class="team-one__sub-title">Treasurer</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--Team One Single End-->
-
-                        <!--Team One Single Start-->
-                        <div class="col-xl-4 col-lg-4">
-                            <div class="team-one__single">
-                                <div class="team-one__shape-1">
-                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
-                                </div>
-                                <div class="team-one__img-box">
-                                    <div class="team-one__img">
-                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="team-one__content">
-                                    <h3 class="team-one__name"><a href="#">Rebecca Wanjiru </a></h3>
-                                    <p class="team-one__sub-title">V/Treasurer.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--Team One Single End-->
-
-                         <!--Team One Single Start-->
-                         <div class="col-xl-4 col-lg-4">
-                            <div class="team-one__single">
-                                <div class="team-one__shape-1">
-                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
-                                </div>
-                                <div class="team-one__img-box">
-                                    <div class="team-one__img">
-                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="team-one__content">
-                                    <h3 class="team-one__name"><a href="#">Awadh Aboud</a></h3>
-                                    <p class="team-one__sub-title">Chief of Navy Veterans.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--Team One Single End-->
-
-                         <!--Team One Single Start-->
-                         <div class="col-xl-4 col-lg-4">
-                            <div class="team-one__single">
-                                <div class="team-one__shape-1">
-                                    <img src="{{asset('theme/assets/images/shapes/team-one-shape-1.png')}}" alt="">
-                                </div>
-                                <div class="team-one__img-box">
-                                    <div class="team-one__img">
-                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="team-one__content">
-                                    <h3 class="team-one__name"><a href="#"> Dr Gideon Kiema</a></h3>
-                                    <p class="team-one__sub-title">Chief of Air force Veterans.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--Team One Single End-->
+                        @endforeach
 
                     </div>
                 </div>
