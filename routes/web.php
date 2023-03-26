@@ -19,12 +19,16 @@ Route::get('/who-we-are/explore', [App\Http\Controllers\HomeController::class, '
 Route::get('/our-history', [App\Http\Controllers\HomeController::class, 'our_history'])->name('our-history');
 Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact_us'])->name('contact-us');
 
+Route::get('/privacy-policy', [App\Http\Controllers\HomeController::class, 'contact_us'])->name('contact-us');
+Route::get('/terms-and-conditions', [App\Http\Controllers\HomeController::class, 'contact_us'])->name('contact-us');
+Route::get('/copyright', [App\Http\Controllers\HomeController::class, 'contact_us'])->name('contact-us');
+
 
 
 Auth::routes();
 
-Route::group(['prefix'=>'admin','as'=>'admin'], function(){
-   Route::get('/', [App\Http\Controllers\AdminsController::class, 'index'])->name('admin.index')->middleware('is_admin');
+Route::group(['prefix'=>'admin'], function(){
+   Route::get('/', [App\Http\Controllers\AdminsController::class, 'index'])->name('adminhome')->middleware('is_admin');
    Route::get('/addLeadership', [App\Http\Controllers\AdminsController::class, 'addLeadership'])->name('admin.addLeadership')->middleware('is_admin');
    Route::post('/add_Leadership', [App\Http\Controllers\AdminsController::class, 'add_Leadership'])->name('admin.add_Leadership')->middleware('is_admin');
    Route::get('/leaderships', [App\Http\Controllers\AdminsController::class, 'leaderships'])->name('admin.leaderships')->middleware('is_admin');

@@ -118,6 +118,23 @@
         </section>
         <!--About Four End-->
 
+        <section class="social-one">
+            <div class="social-one__bg" style="background-image: url(assets/images/backgrounds/social-one-bg.jpg);">
+            </div>
+            <div class="social-one__icon">
+                <span class="fa fa-gavel"></span>
+            </div>
+            <div class="container">
+                <div class="social-one__inner">
+                    <h2>THE MILITARY VETERANS ACT, 2022</h2>
+                    <p class="social-one__text">
+                        AN ACT of Parliament to establish a regulatory and institutional framework for the management of military veterans' affairs; for the provision of benefits to military veterans and military veterans' dependants; to establish the Dependants' Education Fund; and for connected purposes . ENACTED by the Parliament of Kenya
+                    </p>
+                    <p class="social-one__text-two"><a href="https://mod.go.ke/download/the-military-veterans-act-2022/"><span class="fa fa-download"></span> Download THE MILITARY VETERANS ACT</a></p>
+                </div>
+            </div>
+        </section>
+
         <!--Counter Three Start-->
         <section class="counter-three">
             <div class="counter-two__bg" style="background-image: url(assets/images/backgrounds/counter-two-bg.jpg);">

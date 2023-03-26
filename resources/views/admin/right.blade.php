@@ -11,7 +11,7 @@
             <div class="well well-small">
                 <button type="button" onclick="window.open('{{url('/admin/version')}}','_self')" class="btn btn-block"> Version Control </button>
                 <button type="button" onclick="window.open('{{url('/admin/leaderships')}}','_self')" class="btn btn-success btn-block"> Leaderships </button>
-                <button type="button" title="Use This To Load All Products without Images" onclick="window.open('{{url('/admin/Products-lte')}}','_self')" class="btn btn-success btn-block"> Membership </button>
+                <button type="button" onclick="window.open('{{url('/admin/members')}}','_self')" class="btn btn-info btn-block"> Members </button>
 
 
 

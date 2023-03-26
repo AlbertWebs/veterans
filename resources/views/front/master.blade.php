@@ -210,12 +210,12 @@
                 </div>
                 <div class="site-footer__middle">
                     <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="footer-widget__column footer-widget__Contact">
                                 <div class="footer-widget__title-box">
                                     <h3 class="footer-widget__title">Contact</h3>
                                 </div>
-                                <p class="footer-widget__Contact-text">80 Road Peponi Road, 600 <br> Nairobi, Kenya
+                                <p class="footer-widget__Contact-text">Nyayo House, 16th Floor.  Nairobi, Kenya
                                 </p>
                                 <ul class="footer-widget__Contact-list list-unstyled">
                                     <li>
@@ -243,44 +243,31 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                        <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                             <div class="footer-widget__column footer-widget__link">
                                 <div class="footer-widget__title-box">
                                     <h3 class="footer-widget__title">Quick Links</h3>
                                 </div>
                                 <ul class="footer-widget__link-list list-unstyled">
-                                    <li><a href="about#">About</a></li>
-                                    <li><a href="team#">Leadership</a></li>
-                                    <li><a href="events#">Membership</a></li>
-                                    <li><a href="news#">Regions</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="{{url('/')}}/who-we-are">About</a></li>
+                                    <li><a href="{{url('/')}}/who-we-are/#executives">Leadership</a></li>
+                                    <li><a href="{{url('/')}}/membership">Membership</a></li>
+                                    <li><a href="{{url('/')}}/regions">Regions</a></li>
+                                    <li><a href="{{url('/')}}/contact-us">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                            <div class="footer-widget__column footer-widget__departments">
-                                <div class="footer-widget__title-box">
-                                    <h3 class="footer-widget__title">Important Links</h3>
-                                </div>
-                                <ul class="footer-widget__link-list list-unstyled">
-                                    <li><a href="about#">Health & Safety</a></li>
-                                    <li><a href="about#">Housing & Land</a></li>
-                                    <li><a href="about#">Legal & Finance</a></li>
-                                    <li><a href="about#">Transport & Traffic</a></li>
-                                    <li><a href="about#">Arts & Culture</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+
+                        <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                             <div class="footer-widget__column footer-widget__explore">
                                 <div class="footer-widget__title-box">
                                     <h3 class="footer-widget__title">Explore</h3>
                                 </div>
                                 <ul class="footer-widget__link-list list-unstyled">
-                                    <li><a href="about#">Privacy Policy</a></li>
-                                    <li><a href="about#">Terms and Conditions</a></li>
-                                    <li><a href="tax-return#">Copyright Statment</a></li>
-                                    <li><a href="about#">Registration</a></li>
+                                    <li><a href="{{url('/')}}/privacy-policy">Privacy Policy</a></li>
+                                    <li><a href="{{url('/')}}/terms-and-conditions">Terms and Conditions</a></li>
+                                    <li><a href="{{url('/')}}/copyright">Copyright Statment</a></li>
+                                    <li><a href="{{url('/')}}/members">Registration</a></li>
                                 </ul>
                             </div>
                         </div>
