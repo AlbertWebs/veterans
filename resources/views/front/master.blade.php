@@ -210,7 +210,7 @@
                 </div>
                 <div class="site-footer__middle">
                     <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="col-xl-4 col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="100ms">
                             <div class="footer-widget__column footer-widget__Contact">
                                 <div class="footer-widget__title-box">
                                     <h3 class="footer-widget__title">Contact</h3>
@@ -243,7 +243,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                        <div class="col-xl-2 col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                             <div class="footer-widget__column footer-widget__link">
                                 <div class="footer-widget__title-box">
                                     <h3 class="footer-widget__title">Quick Links</h3>
@@ -258,7 +258,22 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                            <div class="footer-widget__column footer-widget__link">
+                                <div class="footer-widget__title-box">
+                                    <h3 class="footer-widget__title">Related Links Links</h3>
+                                </div>
+                                <ul class="footer-widget__link-list list-unstyled">
+                                    <li><a href="https://www.un.org/en/">United Nations</a></li>
+                                    <li><a href="https://www.easfcom.org/index.php/en/">Eastern Africa Standby Force</a></li>
+                                    <li><a href="https://mwak.co.ke/">Military Wives Association of Kenya (MWAK)</a></li>
+                                    <li><a href="https://au.int/">African Union</a></li>
+                                    <li><a href="https://igad.int/">IGAD</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                             <div class="footer-widget__column footer-widget__explore">
                                 <div class="footer-widget__title-box">
                                     <h3 class="footer-widget__title">Explore</h3>
@@ -267,7 +282,7 @@
                                     <li><a href="{{url('/')}}/privacy-policy">Privacy Policy</a></li>
                                     <li><a href="{{url('/')}}/terms-and-conditions">Terms and Conditions</a></li>
                                     <li><a href="{{url('/')}}/copyright">Copyright Statment</a></li>
-                                    <li><a href="{{url('/')}}/members">Registration</a></li>
+                                    <li><a href="https://mod.go.ke/">Ministry of Defense</a></li>
                                 </ul>
                             </div>
                         </div>
