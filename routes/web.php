@@ -23,16 +23,16 @@ Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact_
 
 Auth::routes();
 
-Route::group(['prefix'=>'admin','as'=>'admin.'], function(){
+Route::group(['prefix'=>'admin','as'=>'admin'], function(){
    Route::get('/', [App\Http\Controllers\AdminsController::class, 'index'])->name('admin.index')->middleware('is_admin');
-
    Route::get('/addLeadership', [App\Http\Controllers\AdminsController::class, 'addLeadership'])->name('admin.addLeadership')->middleware('is_admin');
    Route::post('/add_Leadership', [App\Http\Controllers\AdminsController::class, 'add_Leadership'])->name('admin.add_Leadership')->middleware('is_admin');
    Route::get('/leaderships', [App\Http\Controllers\AdminsController::class, 'leaderships'])->name('admin.leaderships')->middleware('is_admin');
    Route::get('/deleteLeadership/{id}', [App\Http\Controllers\AdminsController::class, 'deleteLeadership'])->name('admin.deleteLeadership')->middleware('is_admin');
    Route::get('/editLeadership/{id}', [App\Http\Controllers\AdminsController::class, 'editLeadership'])->name('admin.editLeadership')->middleware('is_admin');
    Route::post('/edit_Leadership/{id}', [App\Http\Controllers\AdminsController::class, 'edit_Leadership'])->name('admin.edit_Leadership')->middleware('is_admin');
+});
 
-
-
+Route::group(['prefix'=>'members','as'=>'members'], function(){
+    Route::get('/', [App\Http\Controllers\MembersController::class, 'index'])->name('members.index')->middleware('is_admin');
 });

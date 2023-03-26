@@ -21,7 +21,7 @@
 
 
 
-                            <a title="All Products" class="quick-btn" href="{{url('/admin/products')}}">
+                            <a title="All Products" class="quick-btn" href="{{url('/admin/leaderships')}}">
                                 <i class="icon-file icon-2x"></i>
                                 <span>Leadership</span>
                                 <span class="label btn-metis-2"><?php $Product = DB::table('leaderships')->get(); $Count = count($Product); echo $Count ?></span>
