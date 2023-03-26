@@ -69,8 +69,8 @@
                                     </div>
                                     <div class="content" id="vision">
                                         <h3>Our Vision</h3>
-                                        <p>It has survived not only five centuries. Lorem Ipsum is simply dummy text of
-                                            the new design printng.</p>
+                                        <p>Engage And Involve The Retired Members Of The Kenya Defense Forces In Out Of Service,
+                                            To Active Service To The Nation.</p>
                                     </div>
                                 </li>
                                 <li>
@@ -87,6 +87,17 @@
                                             Without Kenya Boarder, Contact Anti-Human Trafficking, Counter-Human Trafficking, And
                                             Intelligence Human Trafficking Operations To Restore Human Dignity And Participate In
                                             Development Programs In Retirement,</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="icon">
+                                        <span class="fa fa-angle-right"></span>
+                                    </div>
+                                    <div class="content" id="vision">
+                                        <h3>Our Mission Statement</h3>
+                                        <p>Peace, Security, Anti-Human, Climate Change And Development In Retirement But Not Tired
+                                            Nor Expired.</p>
                                     </div>
                                 </li>
 

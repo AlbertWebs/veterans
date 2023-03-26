@@ -157,4 +157,50 @@
     </div>
 </section>
 <!--About Two End-->
+
+<section class="testimonial-three">
+    <div class="testimonial-three__bg" style="background-image: url({{asset('theme/assets/images/backgrounds/fd.jpg')}});"></div>
+    <div class="containers" style="padding:10px">
+        <div class="row text-center">
+            <div class="col-xl-3">
+                <div class="testimonial-three__left">
+                    <div class="section-title text-left">
+                        <h5>OUR VISION</h5>
+                    </div>
+                    <p class="testimonial-three-left__text">
+                        Engage And Involve The Retired Members Of The Kenya Defense Forces In Out Of Service,
+                        To Active Service To The Nation.
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="col-xl-6">
+                <div class="testimonial-three__left">
+                    <div class="section-title text-left">
+                        <h5>Mission</h5>
+                    </div>
+                    <p class="testimonial-three-left__text">
+                        Support And Compliment The Government Using Skills And Expertise Of The Members Of The Kenya Defense Forces Military Veterans In Peace Building, Security, Anti Human Trafficking, Climate Change And Development Through Undercover Security Services, Anti- Terrorism, Conflict And Disaster Management, Reduction Of Small Arms Through Non- Violence Process And Community Policing For Peaceful Coexistence Across, Within And Without Kenya Boarder, Contact Anti-Human Trafficking, Counter-Human Trafficking, And Intelligence Human Trafficking Operations To Restore Human Dignity And Participate In Development Programs In Retirement,
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-xl-3">
+                <div class="testimonial-three__left">
+                    <div class="section-title text-left">
+                        <h5>Our Goals</h5>
+                    </div>
+                    <p class="testimonial-three-left__text">
+                        Have A Peaceful, United, Reconciled And Prosperous Kenya, Region And The World To Live
+                        In And Achieve Personal, Collective, National And Global Goals, Mandates, Vision And
+                        Missions For Development In Retirement.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 @endsection
