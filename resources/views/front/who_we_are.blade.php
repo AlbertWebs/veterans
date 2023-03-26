@@ -225,7 +225,7 @@
                                 <span class="section-title__tagline">Leadership</span>
                                 <h2 class="section-title__title">Message from <br>our leadership</h2>
                             </div>
-                            <p class="testimonial-three-left__text">The More We Sweat In Peace, The Less We Bleed In War</p>
+                            {{-- <p class="testimonial-three-left__text">The More We Sweat In Peace, The Less We Bleed In War</p> --}}
                         </div>
                     </div>
                     <div class="col-xl-8">
