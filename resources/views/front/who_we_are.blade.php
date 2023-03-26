@@ -255,6 +255,11 @@
                                     }
                                 }
                             }'>
+                            <?php
+                                $Messages = DB::table('leaderships')->where('msg','1')->get();
+                            ?>
+
+                                @foreach ($Messages as $message)
                                 <!--Testimonial One Single Start-->
                                 <div class="item">
                                     <div class="testimonial-three__single">
@@ -268,11 +273,11 @@
                                             <div class="testimonial-three__quote">
                                                 <span class="icon-quote"></span>
                                             </div>
-                                            <p class="testimonial-three__text">Bishop Robert Mbukua- Executive Chairman - Message From The Leadership goes here</p>
+                                            <p class="testimonial-three__text">{{$message->content}}</p>
                                             <div class="testimonial-three__client-info">
                                                 <div class="testimonial-three__client-img-box">
                                                     <div class="testimonial-three__client-img">
-                                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
+                                                        <img src="{{url('/')}}/uploads/leaderships/{{$message->image}}" alt="">
                                                     </div>
                                                 </div>
                                                 <div class="testimonial-three__client-content">
@@ -283,88 +288,14 @@
                                                         <span class="fa fa-star"></span>
                                                         <span class="fa fa-star"></span>
                                                     </div> --}}
-                                                    <h3 class="testimonial-three__client-name">Bishop Robert Mbukua</h3>
-                                                    <p class="testimonial-three__client-sub-title">Executive Chairman</p>
+                                                    <h3 class="testimonial-three__client-name">{{$message->name}}</h3>
+                                                    <p class="testimonial-three__client-sub-title">{{$message->position}}</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="item">
-                                    <div class="testimonial-three__single">
-                                        <div class="testimonial-three__single-inner">
-                                            <div class="testimonial-three__shape-1">
-                                                <img src="{{asset('theme/assets/images/shapes/testimonial-three-shape-1.png')}}" alt="">
-                                            </div>
-                                            <div class="testimonial-three__shape-2">
-                                                <img src="{{asset('theme/assets/images/shapes/testimonial-three-shape-2.png')}}" alt="">
-                                            </div>
-                                            <div class="testimonial-three__quote">
-                                                <span class="icon-quote"></span>
-                                            </div>
-                                            <p class="testimonial-three__text">Dr Nelson Sechere- Message From The Leadership goes here</p>
-                                            <div class="testimonial-three__client-info">
-                                                <div class="testimonial-three__client-img-box">
-                                                    <div class="testimonial-three__client-img">
-                                                        <img src="{{url('/')}}/uploads/team/nelson.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="testimonial-three__client-content">
-                                                    {{-- <div class="testimonial-three__client-rating">
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                    </div> --}}
-                                                    <h3 class="testimonial-three__client-name">Dr Nelson Sechere</h3>
-                                                    <p class="testimonial-three__client-sub-title">Executive Director</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="item">
-                                    <div class="testimonial-three__single">
-                                        <div class="testimonial-three__single-inner">
-                                            <div class="testimonial-three__shape-1">
-                                                <img src="{{asset('theme/assets/images/shapes/testimonial-three-shape-1.png')}}" alt="">
-                                            </div>
-                                            <div class="testimonial-three__shape-2">
-                                                <img src="{{asset('theme/assets/images/shapes/testimonial-three-shape-2.png')}}" alt="">
-                                            </div>
-                                            <div class="testimonial-three__quote">
-                                                <span class="icon-quote"></span>
-                                            </div>
-                                            <p class="testimonial-three__text">James Muriuki- V/ Chair.
-                                                - Message From The Leadership goes here</p>
-                                            <div class="testimonial-three__client-info">
-                                                <div class="testimonial-three__client-img-box">
-                                                    <div class="testimonial-three__client-img">
-                                                        <img src="{{asset('uploads/people/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')}}" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="testimonial-three__client-content">
-                                                    {{-- <div class="testimonial-three__client-rating">
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                    </div> --}}
-                                                    <h3 class="testimonial-three__client-name">James Muriuki
-                                                    </h3>
-                                                    <p class="testimonial-three__client-sub-title"> Vice Chairman</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
+                                @endforeach
                             </div>
                         </div>
                     </div>
