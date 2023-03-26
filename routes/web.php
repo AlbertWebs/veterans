@@ -18,6 +18,8 @@ Route::get('/who-we-are', [App\Http\Controllers\HomeController::class, 'who_we_a
 Route::get('/who-we-are/explore', [App\Http\Controllers\HomeController::class, 'explore'])->name('explore');
 Route::get('/our-history', [App\Http\Controllers\HomeController::class, 'our_history'])->name('our-history');
 Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact_us'])->name('contact-us');
+Route::get('/regions', [App\Http\Controllers\HomeController::class, 'regions'])->name('regions');
+
 
 Route::get('/privacy-policy', [App\Http\Controllers\HomeController::class, 'contact_us'])->name('contact-us');
 Route::get('/terms-and-conditions', [App\Http\Controllers\HomeController::class, 'contact_us'])->name('contact-us');

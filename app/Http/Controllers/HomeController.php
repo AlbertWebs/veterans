@@ -36,6 +36,10 @@ class HomeController extends Controller
         return view('front.explore');
     }
 
+    public function regions()
+    {
+        return view('front.regions');
+    }
 
 
     public function our_history()

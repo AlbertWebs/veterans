@@ -125,7 +125,7 @@
                                             <a href="https://mod.go.ke/download/the-military-veterans-act-2022/">Military Veterans ACT</a>
                                         </li>
                                         <li>
-                                            <a onclick="return alert('Work in progress....')" href="#">Regions</a>
+                                            <a href="{{url('/')}}/regions">Regions</a>
                                         </li>
                                         {{-- <li>
                                             <a onclick="return alert('Work in progress....')" href="#">History</a>

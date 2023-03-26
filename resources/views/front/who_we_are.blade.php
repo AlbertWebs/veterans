@@ -141,7 +141,7 @@
                     <p class="social-one__text">
                         AN ACT of Parliament to establish a regulatory and institutional framework for the management of military veterans' affairs; for the provision of benefits to military veterans and military veterans' dependants; to establish the Dependants' Education Fund; and for connected purposes . ENACTED by the Parliament of Kenya
                     </p>
-                    <p class="social-one__text-two"><a href="https://mod.go.ke/download/the-military-veterans-act-2022/"><span class="fa fa-download"></span> Download THE MILITARY VETERANS ACT</a></p>
+                    <p class="social-one__text-two" ><a href="https://mod.go.ke/download/the-military-veterans-act-2022/"><span class="fa fa-download"></span> Download THE MILITARY VETERANS ACT</a></p>
                 </div>
             </div>
         </section>
