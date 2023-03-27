@@ -12,7 +12,7 @@
                 <button type="button" onclick="window.open('{{url('/admin/version')}}','_self')" class="btn btn-block"> Version Control </button>
                 <button type="button" onclick="window.open('{{url('/admin/leaderships')}}','_self')" class="btn btn-success btn-block"> Leaderships </button>
                 <button type="button" onclick="window.open('{{url('/admin/members')}}','_self')" class="btn btn-info btn-block"> Members </button>
-
+                <button type="button" onclick="window.open('{{url('/admin/blogs')}}','_self')" class="btn btn-info btn-block"> Blogs </button>
 
 
 

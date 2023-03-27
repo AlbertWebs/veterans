@@ -5,7 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Leadership;
 use App\Models\Member;
+use App\Models\Blog;
+use Illuminate\Support\Str;
 use Session;
+use DateTime;
 use DB;
 
 use Illuminate\Support\Facades\Redirect;
@@ -175,5 +178,99 @@ class AdminsController extends Controller
         return Redirect::back();
     }
 
+    public function addBlog(){
+
+        $page_title = 'formfiletext';//For Layout Inheritance
+        $page_name = 'add Blog';
+        return view('admin.addBlog',compact('page_title','page_name'));
+    }
+
+    public function add_Blog(Request $request){
+        $path = 'uploads/blogs';
+        if(isset($request->image_one)){
+            $fileSize = $request->file('image_one')->getSize();
+                if($fileSize>=1800000){
+                Session::flash('message', "File Exceeded the maximum allowed Size");
+                Session::flash('messageError', "An error occured, You may have exceeded the maximum size for an image you uploaded");
+                return Redirect::back();
+                }else{
+
+                $file = $request->file('image_one');
+                $filename = str_replace(' ', '', $file->getClientOriginalName());
+                $timestamp = new Datetime();
+                $new_timestamp = $timestamp->format('Y-m-d H:i:s');
+                $image_main_temp = $new_timestamp.'image'.$filename;
+                $image_one = str_replace(' ', '',$image_main_temp);
+                $file->move($path, $image_one);
+                }
+        }else{
+            $image_one = $request->pro_img_cheat;
+        }
+
+        $blog = new Blog;
+        $blog->title = $request->title;
+        $blog->slung = Str::slug($request->title);
+        $blog->link = $request->link;
+        $blog->content = $request->content;
+        $blog->source = $request->source;
+        $blog->image = $image_one;
+        $blog->save();
+        Session::flash('message', "Blog Has Been Added");
+        return Redirect::back();
+    }
+
+    public function blog(){
+        $Blog = Blog::all();
+        $page_title = 'list';
+        $page_name = 'Blog';
+        return view('admin.blog',compact('page_title','Blog','page_name'));
+    }
+
+    public function editBlog($id){
+        $Blog = Blog::find($id);
+        $page_title = 'formfiletext';
+        $page_name = 'Edit Blog';
+        return view('admin.editBlog',compact('page_title','Blog','page_name'));
+    }
+
+
+    public function edit_Blog(Request $request, $id){
+        $path = 'uploads/blogs';
+        if(isset($request->image_one)){
+            $fileSize = $request->file('image_one')->getSize();
+                if($fileSize>=1800000){
+                Session::flash('message', "File Exceeded the maximum allowed Size");
+                Session::flash('messageError', "An error occured, You may have exceeded the maximum size for an image you uploaded");
+                return Redirect::back();
+                }else{
+
+                $file = $request->file('image_one');
+                $filename = str_replace(' ', '', $file->getClientOriginalName());
+                $timestamp = new Datetime();
+                $new_timestamp = $timestamp->format('Y-m-d H:i:s');
+                $image_main_temp = $new_timestamp.'image'.$filename;
+                $image_one = str_replace(' ', '',$image_main_temp);
+                $file->move($path, $image_one);
+                }
+        }else{
+            $image_one = $request->image_cheat;
+        }
+
+        $updateDetails = array(
+            'title' => $request->title,
+            'content' => $request->content,
+            'link' => $request->link,
+            'source' =>$request->source,
+            'image' =>$image_one,
+        );
+        DB::table('blogs')->where('id',$id)->update($updateDetails);
+        Session::flash('message', "Changes have been saved");
+        return Redirect::back();
+    }
+
+    public function delete_Blog($id){
+        DB::table('blogs')->where('id',$id)->delete();
+        return Redirect::back();
+    }
 
 }

@@ -298,4 +298,63 @@
         </div>
     </div>
 </section>
+
+<section class="news-one">
+    <div class="container">
+        <div class="section-title text-center">
+            <div class="section-title__icon">
+                <span class="fa fa-star"></span>
+            </div>
+            <span class="section-title__tagline">News & Press Releases</span>
+            <h2 class="section-title__title">Latest news &amp; articles
+                </h2>
+        </div>
+        <?php
+            $Blog = DB::table('blogs')->limit('3')->get();
+        ?>
+        <div class="row">
+            @foreach ($Blog as $blog)
+            <!--News One Single Start-->
+            <div class="col-xl-6 col-lg-6 wow fadeInUp animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
+                <div class="news-one__single">
+                    <div class="news-one__img-box">
+                        <div class="news-one__img">
+                            <img style="min-height:428px" src="{{url('/')}}/uploads/blogs/{{$blog->image}}" alt="">
+                        </div>
+                        <div class="news-one__date">
+                            <p>{{date('d',strtotime($blog->created_at))}} <br> {{date('M',strtotime($blog->created_at))}}</p>
+                        </div>
+                    </div>
+                    <div class="news-one__content">
+                        <div class="news-one__user-and-meta">
+                            <div class="news-one__user">
+                                <div class="news-one__user-img">
+                                    <img src="assets/images/blog/news-one-user-img.jpg" alt="">
+                                </div>
+                                <div class="news-one__user-text">
+                                    <p>Source {{$blog->source}}</p>
+                                </div>
+                            </div>
+                            <div class="news-one__meta">
+                                <div class="icon">
+                                    <span class="fas fa-comments"></span>
+                                </div>
+                                <div class="text">
+                                    <p>2 Comments</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="news-one__title"><a target="new" href="{{$blog->link}}">{{$blog->title}}</a>
+                        </h3>
+                        <div class="news-one__btn">
+                            <a target="new" href="{{$blog->link}}">Read More<i class="icon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--News One Single End-->
+            @endforeach
+        </div>
+    </div>
+</section>
 @endsection

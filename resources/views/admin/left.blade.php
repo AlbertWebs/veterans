@@ -33,6 +33,7 @@
 
                 <li><a href="{{url('admin/addLeadership')}}"><i class="icon-plus"></i>  <i class="icon-user-md"></i> Add Leadership </a></li>
                 <li><a href="{{url('admin/addMember')}}"><i class="icon-plus"></i>  <i class="icon-user-md"></i> Add Member </a></li>
+                <li><a href="{{url('admin/addBlog')}}"><i class="icon-plus"></i>  <i class="icon-user-md"></i> Add Blog </a></li>
                 <li class="panel">
                     <a href="#" data-parent="#menu" data-toggle="collapse" class="accordion-toggle" data-target="#error-nav">
                         <i class="icon-folder-open"></i>  Pages

@@ -2,7 +2,7 @@
 
 @section('content')
 <div id="wrap" >
-        
+
 
         <!-- HEADER SECTION -->
         @include('admin.top')
@@ -18,13 +18,13 @@
 
         <!--PAGE CONTENT -->
         <div id="content">
-             
+
             <div class="inner" style="min-height: 700px;">
                 <div class="row">
                     <div class="col-lg-12">
-                        
+
                         <center><h2> Blog Posts </h2></center>
-                        
+
                     </div>
                 </div>
                   <hr />
@@ -38,7 +38,7 @@
                 </div>
                   <!--END BLOCK SECTION -->
                 <hr />
-                 
+
                  <!-- COMMENT AND NOTIFICATION  SECTION -->
                    <div class="row">
                         <div class="col-lg-12">
@@ -57,7 +57,7 @@
                                                     <th>Image</th>
                                                     <th>Edit</th>
                                                     <th>Delete</th>
-                                                    
+
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -66,27 +66,27 @@
                                                     <td>{{$value->id}}</td>
                                                     <td>{{$value->title}}</td>
                                                     <td>{{$value->author}}</td>
-                                                    <td class="center"><img width="80" height="80" src="{{url('/')}}/uploads/blog/{{$value->image_one}}"></td>
+                                                    <td class="center"><img width="80" height="80" src="{{url('/')}}/uploads/blogs/{{$value->image}}"></td>
                                                     <td class="center"><a href="{{url('/admin')}}/editBlog/{{$value->id}}"   class="btn btn-info"><i class="icon-pencil icon-white"></i> Edit</a></td>
                                                     <td class="center"><a onclick="return confirm('Do you want to delete this Post?')" href="{{url('/admin')}}/delete_Blog/{{$value->id}}"   class="btn btn-danger"><i class="icon-trash icon-white"></i> Del</a></td>
-                                                  
+
                                                 </tr>
                                             @endforeach
-                                                
+
                                             </tbody>
                                         </table>
                                     </div>
-                                
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 <!-- END COMMENT AND NOTIFICATION  SECTION -->
-                
 
 
 
-                
+
+
             </div>
 
         </div>
