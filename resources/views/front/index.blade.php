@@ -340,7 +340,7 @@
                                     <span class="fas fa-comments"></span>
                                 </div>
                                 <div class="text">
-                                    <p>2 Comments</p>
+                                    <p>Kenya Veterans for Peace (kvp)</p>
                                 </div>
                             </div>
                         </div>
