@@ -76,7 +76,7 @@
                                         </div>
                                         <div class="content">
                                             <p>Location</p>
-                                            <h4>Nyayo House, GPO, Nairobi</h4>
+                                            <h4>Nyayo House, 16th Floor. Nairobi, Kenya</h4>
                                         </div>
                                     </li>
                                 </ul>
