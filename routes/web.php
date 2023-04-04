@@ -20,6 +20,10 @@ Route::get('/our-history', [App\Http\Controllers\HomeController::class, 'our_his
 Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact_us'])->name('contact-us');
 Route::get('/regions', [App\Http\Controllers\HomeController::class, 'regions'])->name('regions');
 
+Route::get('/veterans-register', [App\Http\Controllers\HomeController::class, 'register'])->name('register');
+Route::post('/generate-membership-number', [App\Http\Controllers\HomeController::class, 'membership'])->name('membership-number');
+
+
 
 Route::get('/privacy-policy', [App\Http\Controllers\HomeController::class, 'contact_us'])->name('contact-us');
 Route::get('/terms-and-conditions', [App\Http\Controllers\HomeController::class, 'contact_us'])->name('contact-us');
@@ -54,6 +58,9 @@ Route::group(['prefix'=>'admin'], function(){
     Route::post('/add_blog',   [App\Http\Controllers\AdminsController::class, 'add_Blog'])->middleware('is_admin');
 });
 
-Route::group(['prefix'=>'members','as'=>'members'], function(){
-    Route::get('/', [App\Http\Controllers\MembersController::class, 'index'])->name('members.index')->middleware('is_admin');
+Route::group(['prefix'=>'members'], function(){
+    Route::get('/', [App\Http\Controllers\MembersController::class, 'index'])->name('members');
+    Route::post('/save-changes', [App\Http\Controllers\MembersController::class, 'save_changes'])->name('save-changes');
+
+
 });

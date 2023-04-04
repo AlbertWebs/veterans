@@ -166,9 +166,19 @@
                                         </select>
 
                                     </div>
+                                    @if(Auth::User())
                                     <div class="main-menu__btn-box">
-                                        <a href="#" class="thm-btn main-menu__btn">Members Area</a>
+                                        <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                        document.getElementById('logout-form').submit();" class="thm-btn main-menu__btn">Logout</a>
                                     </div>
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
+                                    @else
+                                    <div class="main-menu__btn-box">
+                                        <a href="{{url('/')}}/veterans-register" class="thm-btn main-menu__btn">Members Area</a>
+                                    </div>
+                                    @endif
                                 </div>
                             </div>
                         </div>
@@ -449,6 +459,27 @@
 
     <!-- template js -->
     <script src="{{asset('theme/assets/js/govity.js')}}"></script>
+
+    <script>
+        $(function() {
+            $(document).on("change", ".uploadFile", function() {
+                var uploadFile = $(this);
+                var files = !!this.files ? this.files : [];
+                if (!files.length || !window.FileReader) return; // no file selected, or no FileReader support
+
+                if (/^image/.test(files[0].type)) { // only image file
+                    var reader = new FileReader(); // instance of the FileReader
+                    reader.readAsDataURL(files[0]); // read the local file
+
+                    reader.onloadend = function() { // set image data as background of div
+                        //alert(uploadFile.closest(".upimage").find('.imagePreview').length);
+                        uploadFile.closest(".imgUp").find('.imagePreview').css("background-image", "url(" + this.result + ")");
+                    }
+                }
+
+            });
+        });
+    </script>
 </body>
 
 
