@@ -149,6 +149,7 @@ class HomeController extends Controller
 
         if($Membership->save()){
             Session::flash('message', "Congratulations!! Your Details Have Been Received");
+            // return Redirect::back();
             return $this->summary();
         }
 
