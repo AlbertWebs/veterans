@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Leadership;
 use App\Models\Member;
+use App\Models\Membership;
+use App\Models\Order;
+
 use App\Models\Blog;
 use Illuminate\Support\Str;
 use Session;
@@ -117,7 +120,14 @@ class AdminsController extends Controller
     public function members(){
         $page_name = "Member";
         $page_title = "list";
-        $Member = Member::all();
+        $Member = Membership::all();
+        return view('admin.members', compact('page_name','page_title','Member'));
+    }
+
+    public function member(){
+        $page_name = "Member";
+        $page_title = "list";
+        $Member = Membership::all();
         return view('admin.members', compact('page_name','page_title','Member'));
     }
 
@@ -271,6 +281,45 @@ class AdminsController extends Controller
     public function delete_Blog($id){
         DB::table('blogs')->where('id',$id)->delete();
         return Redirect::back();
+    }
+
+    public function generate_number($id){
+        $this->generateMembership($id);
+        return Redirect::back();
+    }
+
+    public function generateMembership($id){
+         $GetDetails = Membership::find($id);
+         $Category = $GetDetails->category;
+         if($Category == "Airforce"){
+            $initial = "F";
+         }elseif($Category == "Army"){
+            $initial = "A";
+         }else{
+            $initial = "N";
+         }
+        //Get Last Order
+        $Order = Order::get();
+        if($Order->isEmpty()){
+            $Order = 1;
+        }else{
+             $OrderGet = Order::orderBy('id', 'DESC')->first();
+            //  dd($OrderGet);
+             $CurrentID = $OrderGet->id;
+             $Order = $CurrentID+1;
+        }
+        $Number = "KV-$initial-$Order";
+
+        $Orders = new Order;
+        $Orders->membership_id = $id;
+        $Orders->save();
+
+
+        $updateDetails = array(
+            'number'=>$Number,
+        );
+        DB::table('memberships')->where('id',$id)->update($updateDetails);
+
     }
 
 }

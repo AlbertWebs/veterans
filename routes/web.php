@@ -56,6 +56,10 @@ Route::group(['prefix'=>'admin'], function(){
     Route::post('/edit_Blog/{id}',   [App\Http\Controllers\AdminsController::class, 'edit_Blog'])->middleware('is_admin');
     Route::get('/addBlog',   [App\Http\Controllers\AdminsController::class, 'addBlog'])->middleware('is_admin');
     Route::post('/add_blog',   [App\Http\Controllers\AdminsController::class, 'add_Blog'])->middleware('is_admin');
+
+    Route::get('/generate-number/{id}',  [App\Http\Controllers\AdminsController::class, 'generate_number'])->middleware('is_admin');
+
+
 });
 
 Route::group(['prefix'=>'members'], function(){

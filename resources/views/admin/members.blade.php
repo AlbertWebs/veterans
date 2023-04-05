@@ -53,33 +53,33 @@
                                                 <tr>
                                                     <th>No</th>
                                                     <th>Name</th>
-                                                    <th>Service Time</th>
+                                                    <th>Service Number</th>
                                                     <th>Image</th>
 
-                                                    <th>Delete</th>
+                                                    <th>Action</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                             @foreach($Member as $value)
-                                                <tr class="odd gradeX">
+                                                <tr class="odd gradeX text-center">
                                                     <td>{{$value->id}}</td>
                                                     <td>{{$value->name}}</td>
-                                                    <td>{{$value->service}}</td>
+                                                    <td><strong>{{$value->service_number}}</strong></td>
 
-                                                    <td><center><img width="100" height="100" src="{{url('/')}}/uploads/members/{{$value->image}}"></center></td>
-                                                    @if($value->id == 1)
+                                                    <td><center><img width="100" height="100" src="{{url('/')}}/uploads/files/{{$value->passport}}"></center></td>
+
                                                     <td class="center">
-                                                        <a onclick="return alert('You Cannot Delete The SupperAdmin')" href="{{url('/admin')}}/deleteMember/{{$value->id}}"   class="btn btn-danger"><i class="icon-trash icon-white"></i> Del</a>
-                                                        <br><br>
-                                                        <a href="{{url('/admin')}}/editMember/{{$value->id}}"   class="btn btn-info"><i class="icon-pencil icon-white"></i> Edit</a>
-                                                    </td>
-                                                    @else
-                                                    <td class="center">
-                                                        <a onclick="return confirm('Delete This Person?')" href="{{url('/admin')}}/deleteMember/{{$value->id}}"   class="btn btn-danger"><i class="icon-trash icon-white"></i> Del</a>
+                                                        {{-- <a onclick="return confirm('Delete This Person?')" href="{{url('/admin')}}/deleteMember/{{$value->id}}"   class="btn btn-danger"><i class="icon-trash icon-white"></i> Del</a>
                                                         <br><br>
                                                         <a  href="{{url('/admin')}}/editMember/{{$value->id}}"   class="btn btn-info"><i class="icon-pencil icon-white"></i> Edit</a>
+                                                        <br><br> --}}
+                                                        @if($value->number == null)
+                                                            <a onclick="return confirm('Generate Membership')" href="{{url('/admin')}}/generate-number/{{$value->id}}"   class="btn btn-success"><i class="icon-check icon-white"></i> Generate Membership</a>
+                                                        @else
+                                                            <h3>{{$value->number}}</h3>
+                                                        @endif
                                                     </td>
-                                                    @endif
+
                                                 </tr>
                                             @endforeach
 

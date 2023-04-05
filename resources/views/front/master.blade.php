@@ -154,15 +154,9 @@
                                             <option
                                                 data-content="<span class='lang-en'><img src='assets/images/lang-flag/en.png' alt=''>English</span>"
                                                 value="en" selected>English</option>
-                                            <option
-                                                data-content="<span class='lang-fr'><img src='assets/images/lang-flag/fr.png' alt=''>French</span>"
-                                                value="fr">French
-                                            </option>
 
-                                            <option
-                                                data-content="<span class='lang-it'><img src='assets/images/lang-flag/it.png' alt=''>Italian</span>"
-                                                value="it">
-                                                Italian</option>
+
+
                                         </select>
 
                                     </div>
