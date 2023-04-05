@@ -10,6 +10,7 @@ use Session;
 use DateTime;
 use Hash;
 use Illuminate\Support\Facades\Redirect;
+use PDF;
 
 class MembersController extends Controller
 {
@@ -17,6 +18,16 @@ class MembersController extends Controller
         $id = Auth::User()->id;
         $User = User::find(Auth::User()->id);
         return view('members.index', compact('User'));
+    }
+
+    public function summary(){
+        $id = Auth::User()->id;
+        $User = User::find(Auth::User()->id);
+        //
+        $pdf = PDF::loadView('members.summary',compact('User'));
+        // download PDF file with download method
+        return $pdf->download('pdf_file.pdf');
+        // return view('members.summary', compact('User'));
     }
 
     public function save_changes(Request $request){
@@ -77,6 +88,7 @@ class MembersController extends Controller
         $id = $request->id;
         DB::table('memberships')->where('id',$id)->update($UpdateDetails);
         Session::flash('message', "Changes Have Been Saved");
+
         return Redirect::back();
     }
 }

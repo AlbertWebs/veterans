@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use App\Models\Membership;
 use App\Models\User;
 use Session;
@@ -10,6 +11,7 @@ use DateTime;
 use DB;
 use Hash;
 use Illuminate\Support\Facades\Redirect;
+use PDF;
 
 class HomeController extends Controller
 {
@@ -64,6 +66,16 @@ class HomeController extends Controller
         return view('front.register');
     }
 
+    public function summary(){
+        $id = Auth::User()->id;
+        $User = User::find(Auth::User()->id);
+        //
+        $pdf = PDF::loadView('members.summary',compact('User'));
+        // download PDF file with download method
+        return $pdf->download('pdf_file.pdf');
+        // return view('members.summary', compact('User'));
+    }
+
     public function membership(Request $request)
     {
         // dd($request->passport);
@@ -115,6 +127,12 @@ class HomeController extends Controller
         $user->name = $request->name;
         $user->save();
 
+        // login
+        $user = User::where('email','=',$request->email)->first();
+        Auth::loginUsingId($user->id, TRUE);
+
+
+
         $Membership = new Membership;
         $Membership->name = $request->name;
         $Membership->category = $request->category;
@@ -131,7 +149,7 @@ class HomeController extends Controller
 
         if($Membership->save()){
             Session::flash('message', "Congratulations!! Your Details Have Been Received");
-            return Redirect::back();
+            return $this->summary();
         }
 
     }
