@@ -65,6 +65,7 @@ Route::group(['prefix'=>'admin'], function(){
 Route::group(['prefix'=>'members'], function(){
     Route::get('/', [App\Http\Controllers\MembersController::class, 'index'])->name('members');
     Route::get('/summary', [App\Http\Controllers\MembersController::class, 'summary'])->name('summary');
+    Route::get('/summary', [App\Http\Controllers\MembersController::class, 'sum'])->name('summary');
 
     Route::post('/save-changes', [App\Http\Controllers\MembersController::class, 'save_changes'])->name('save-changes');
 

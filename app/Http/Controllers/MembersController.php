@@ -30,6 +30,11 @@ class MembersController extends Controller
         // return view('members.summary', compact('User'));
     }
 
+    public function sum(){
+        $User = User::find(1);
+        return view('members.summary', compact('User'));
+    }
+
     public function save_changes(Request $request){
         $path = 'uploads/files';
         if(isset($request->passport)){

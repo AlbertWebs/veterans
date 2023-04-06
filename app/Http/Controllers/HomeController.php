@@ -78,8 +78,6 @@ class HomeController extends Controller
 
     public function membership(Request $request)
     {
-        // dd($request->passport);
-        // process files
         $path = 'uploads/files';
         if(isset($request->passport)){
             $file = $request->file('passport');
@@ -131,8 +129,6 @@ class HomeController extends Controller
         $user = User::where('email','=',$request->email)->first();
         Auth::loginUsingId($user->id, TRUE);
 
-
-
         $Membership = new Membership;
         $Membership->name = $request->name;
         $Membership->category = $request->category;
@@ -150,7 +146,8 @@ class HomeController extends Controller
         if($Membership->save()){
             Session::flash('message', "Congratulations!! Your Details Have Been Received");
             // return Redirect::back();
-            return $this->summary();
+            // return $this->summary();
+            return redirect()->route('members');
         }
 
     }

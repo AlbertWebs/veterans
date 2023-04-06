@@ -26,7 +26,11 @@
                                     <h3 class="team-details__top-name">{{$User->name}}</h3>
                                     <p class="team-details__top-title">{{$Mem->category}}</p>
 
-                                    <p class="team-details__top-text-1">Membership Number: <span style="text-transform: capitalize !important">KVP-127F-{{$Mem->category}}-DW</span></p>
+                                    @if($Mem->number == null)
+                                    <p class="team-details__top-text-1">Membership Number: <span style="text-transform: capitalize !important; color:#ff0000">Proccessing..</span></p>
+                                    @else
+                                    <p class="team-details__top-text-1">Membership Number: <span style="text-transform: capitalize !important;"><mark>{{$Mem->number}}</mark></span></p>
+                                    @endif
 
                                     <div class="team-details__contact">
                                         <p>County: <span>{{$Mem->county}}</span></p>
