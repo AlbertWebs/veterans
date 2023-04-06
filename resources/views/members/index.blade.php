@@ -1,19 +1,36 @@
 @extends('front.master')
 
 @section('content')
+<style>
+    .passport {
+        max-width:300px;
+    }
+    @media (max-width: 768px) {
+        .passport {
+            width:200px !important;
+        }
+    }
+</style>
+
         <?php
           $Members = \App\Models\Membership::where('email',$User->email)->get();
         ?>
         @foreach ($Members as $Mem)
+
+        <div style="text-align: center">
+            <button onclick="printDiv('printableArea')" class="thm-btn"> Download PDF </button>
+
+            <a href="#edit" class="thm-btn">Edit Details  <span class="fa fa-edit"> </span></a>
+        </div>
         <!--Team Details Start-->
-        <section class="team-details">
+        <section class="team-details" id="printableArea">
             <div class="container">
                 <div class="team-details__top">
                     <div class="row">
                         <div class="col-xl-6 col-lg-6">
                             <div class="team-details__left">
                                 <div class="team-details__img">
-                                    <img src="{{url('/')}}/uploads/files/{{$Mem->passport}}" alt="{{$User->name}}">
+                                    <img style=" max-width:500px;" class="passport" src="{{url('/')}}/uploads/files/{{$Mem->passport}}" alt="{{$User->name}}">
                                     <div class="team-details__shape-1">
                                         <img src="assets/images/shapes/team-details-shape-1.png" alt="">
                                     </div>
@@ -38,6 +55,7 @@
                                         <p>Email: <a href="{{$Mem->email}}">{{$Mem->email}}</a>
                                         </p>
                                         <p>Phone: <a href="tel:{{$Mem->phone}}">{{$Mem->phone}}</a></p>
+                                        <p>Year of Birth: <span>{{$Mem->yob}}</span></p>
                                         <p>Retirement Year: <span>{{$Mem->retirement}}</span></p>
                                         <p>Service Number: <span>{{$Mem->service_number}}</span></p>
 
@@ -50,9 +68,9 @@
                     </div>
                     <br><br>
                     {{--  --}}
-                    <div style="text-align: center">
-                        <a href="#edit" class="thm-btn">Edit  <span class="fa fa-edit"> </span></a>
-                    </div>
+
+
+
                     {{--  --}}
                 </div>
                 <div class="team-details__bottom">
@@ -314,6 +332,19 @@
                 <!--End Checkout Page-->
 
         @endforeach
+
+        <script>
+            function printDiv(divName) {
+     var printContents = document.getElementById(divName).innerHTML;
+     var originalContents = document.body.innerHTML;
+
+     document.body.innerHTML = printContents;
+
+     window.print();
+
+     document.body.innerHTML = originalContents;
+}
+        </script>
 
 @endsection
 
