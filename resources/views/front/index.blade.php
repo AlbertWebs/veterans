@@ -327,6 +327,22 @@
                     </div>
                     <div class="news-one__content">
                         <div class="news-one__user-and-meta">
+                            @if($blog->video== null)
+
+                            @else
+                             {{--  --}}
+                             <div class="video-one__inner">
+                                <div class="video-one__video-link">
+                                    <a href="https://www.youtube.com/watch?v={{$blog->video}}" class="video-popup">
+                                        <div class="video-one__video-icon">
+                                            <span class="fa fa-play"></span>
+                                            <i class="ripple"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            {{--  --}}
+                            @endif
                             <div class="news-one__user">
                                 <div class="news-one__user-img">
                                     <img src="assets/images/blog/news-one-user-img.jpg" alt="">

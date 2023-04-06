@@ -35,6 +35,11 @@ class HomeController extends Controller
         return view('front.index');
     }
 
+    public function releases()
+    {
+        return view('front.releases');
+    }
+
     public function who_we_are()
     {
         return view('front.who_we_are');

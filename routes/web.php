@@ -19,6 +19,8 @@ Route::get('/who-we-are/explore', [App\Http\Controllers\HomeController::class, '
 Route::get('/our-history', [App\Http\Controllers\HomeController::class, 'our_history'])->name('our-history');
 Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact_us'])->name('contact-us');
 Route::get('/regions', [App\Http\Controllers\HomeController::class, 'regions'])->name('regions');
+Route::get('/press-releases', [App\Http\Controllers\HomeController::class, 'releases'])->name('press-releases');
+
 
 Route::get('/veterans-register', [App\Http\Controllers\HomeController::class, 'register'])->name('register');
 Route::post('/generate-membership-number', [App\Http\Controllers\HomeController::class, 'membership'])->name('membership-number');
@@ -66,6 +68,7 @@ Route::group(['prefix'=>'members'], function(){
     Route::get('/', [App\Http\Controllers\MembersController::class, 'index'])->name('members');
     Route::get('/summary', [App\Http\Controllers\MembersController::class, 'summary'])->name('summary');
     Route::get('/summary', [App\Http\Controllers\MembersController::class, 'sum'])->name('summary');
+
 
     Route::post('/save-changes', [App\Http\Controllers\MembersController::class, 'save_changes'])->name('save-changes');
 

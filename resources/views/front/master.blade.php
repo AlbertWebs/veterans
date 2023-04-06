@@ -258,6 +258,7 @@
                                     <li><a href="{{url('/')}}/membership">Membership</a></li>
                                     <li><a href="{{url('/')}}/regions">Regions</a></li>
                                     <li><a href="{{url('/')}}/contact-us">Contact</a></li>
+
                                 </ul>
                             </div>
                         </div>
@@ -287,6 +288,7 @@
                                     <li><a href="{{url('/')}}/terms-and-conditions">Terms and Conditions</a></li>
                                     <li><a href="{{url('/')}}/copyright">Copyright Statment</a></li>
                                     <li><a href="https://mod.go.ke/">Ministry of Defense</a></li>
+                                    <li><a href="{{url('/')}}/press-releases">Press Releases</a></li>
                                 </ul>
                             </div>
                         </div>
