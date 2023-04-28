@@ -23,6 +23,7 @@
                         <div class="col-xl-6 col-lg-6">
                             <div class="team-details__right">
                                 <div class="team-details__top-content">
+                                    <br><br>
                                     <h3 class="team-details__top-name">{{$User->name}}</h3>
                                     <p class="team-details__top-title">{{$Mem->category}}</p>
 

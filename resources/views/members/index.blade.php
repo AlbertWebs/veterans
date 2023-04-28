@@ -9,7 +9,16 @@
         .passport {
             width:200px !important;
         }
+        #printableArea{
+            text-align: center !important;
+        }
     }
+
+    /* @media print {
+        #main {position:relative; padding:0; height:1px; overflow:visible;}
+        #printableArea {position:absolute; width:100%; top:0; padding:0; margin:-1px; text-align: center !important;}
+    } */
+
 </style>
 
         <?php
@@ -22,84 +31,87 @@
 
             <a href="#edit" class="thm-btn">Edit Details  <span class="fa fa-edit"> </span></a>
         </div>
-        <!--Team Details Start-->
-        <section class="team-details" id="printableArea">
-            <div class="container">
-                <div class="team-details__top">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6">
-                            <div class="team-details__left">
-                                <div class="team-details__img">
-                                    <img style=" max-width:500px;" class="passport" src="{{url('/')}}/uploads/files/{{$Mem->passport}}" alt="{{$User->name}}">
-                                    <div class="team-details__shape-1">
-                                        <img src="assets/images/shapes/team-details-shape-1.png" alt="">
+        <div id="main">
+            <!--Team Details Start-->
+            <section class="team-details" id="printableArea">
+                <div class="container">
+                    <div class="team-details__top">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="team-details__left">
+                                    <div class="team-details__img">
+                                        <img style="min-width:500px; width:100%" class="passport" src="{{url('/')}}/uploads/files/{{$Mem->passport}}" alt="{{$User->name}}">
+                                        <div class="team-details__shape-1">
+                                            <img src="assets/images/shapes/team-details-shape-1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="team-details__right">
+                                    <div class="team-details__top-content">
+                                        <br>
+                                        <h3 class="team-details__top-name">{{$User->name}}</h3>
+                                        <p class="team-details__top-title">{{$Mem->category}}</p>
+
+                                        @if($Mem->number == null)
+                                        <p class="team-details__top-text-1">Membership Number: <span style="text-transform: capitalize !important; color:#ff0000">Proccessing..</span></p>
+                                        @else
+                                        <p class="team-details__top-text-1">Membership Number: <span style="text-transform: capitalize !important;"><mark>{{$Mem->number}}</mark></span></p>
+                                        @endif
+
+                                        <div class="team-details__contact">
+                                            <p>County: <span>{{$Mem->county}}</span></p>
+                                            <p>Sub County: <span>{{$Mem->subcounty}}</span></p>
+                                            <p>Email: <a href="{{$Mem->email}}">{{$Mem->email}}</a>
+                                            </p>
+                                            <p>Phone: <a href="tel:{{$Mem->phone}}">{{$Mem->phone}}</a></p>
+                                            <p>Year of Birth: <span>{{$Mem->yob}}</span></p>
+                                            <p>Retirement Year: <span>{{$Mem->retirement}}</span></p>
+                                            <p>Service Number: <span>{{$Mem->service_number}}</span></p>
+
+
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-6">
-                            <div class="team-details__right">
-                                <div class="team-details__top-content">
-                                    <h3 class="team-details__top-name">{{$User->name}}</h3>
-                                    <p class="team-details__top-title">{{$Mem->category}}</p>
-
-                                    @if($Mem->number == null)
-                                    <p class="team-details__top-text-1">Membership Number: <span style="text-transform: capitalize !important; color:#ff0000">Proccessing..</span></p>
-                                    @else
-                                    <p class="team-details__top-text-1">Membership Number: <span style="text-transform: capitalize !important;"><mark>{{$Mem->number}}</mark></span></p>
-                                    @endif
-
-                                    <div class="team-details__contact">
-                                        <p>County: <span>{{$Mem->county}}</span></p>
-                                        <p>Sub County: <span>{{$Mem->subcounty}}</span></p>
-                                        <p>Email: <a href="{{$Mem->email}}">{{$Mem->email}}</a>
-                                        </p>
-                                        <p>Phone: <a href="tel:{{$Mem->phone}}">{{$Mem->phone}}</a></p>
-                                        <p>Year of Birth: <span>{{$Mem->yob}}</span></p>
-                                        <p>Retirement Year: <span>{{$Mem->retirement}}</span></p>
-                                        <p>Service Number: <span>{{$Mem->service_number}}</span></p>
+                        <br><br>
+                        {{--  --}}
 
 
+
+                        {{--  --}}
+                    </div>
+                    <div class="team-details__bottom">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="team-details__left">
+                                    <div class="team-details__img">
+                                        <img src="{{url('/')}}/uploads/files/{{$Mem->identity}}" alt="{{$User->name}}">
+                                        <div class="team-details__shape-1">
+                                            <img src="assets/images/shapes/team-details-shape-1.png" alt="">
+                                        </div>
                                     </div>
-
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="team-details__left">
+                                    <div class="team-details__img">
+                                        <img src="{{url('/')}}/uploads/files/{{$Mem->military_id}}" alt="{{$User->name}}">
+                                        <div class="team-details__shape-1">
+                                            <img src="assets/images/shapes/team-details-shape-1.png" alt="">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <br><br>
-                    {{--  --}}
-
-
-
-                    {{--  --}}
                 </div>
-                <div class="team-details__bottom">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6">
-                            <div class="team-details__left">
-                                <div class="team-details__img">
-                                    <img src="{{url('/')}}/uploads/files/{{$Mem->identity}}" alt="{{$User->name}}">
-                                    <div class="team-details__shape-1">
-                                        <img src="assets/images/shapes/team-details-shape-1.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6">
-                            <div class="team-details__left">
-                                <div class="team-details__img">
-                                    <img src="{{url('/')}}/uploads/files/{{$Mem->military_id}}" alt="{{$User->name}}">
-                                    <div class="team-details__shape-1">
-                                        <img src="assets/images/shapes/team-details-shape-1.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <hr>
+            </section>
+            <hr>
+        </div>
         <!--Team Details End-->
         <style>
 
@@ -109,12 +121,12 @@
                 min-height:200px;
                 height: 100%;
                 background-position: center center;
-            background:url(http://cliquecities.com/assets/no-image-e3699ae23f866f6cbdf8ba2443ee5c4e.jpg);
-            background-color:#fff;
+                background:url(http://cliquecities.com/assets/no-image-e3699ae23f866f6cbdf8ba2443ee5c4e.jpg);
+                background-color:#fff;
                 background-size: cover;
-            background-repeat:no-repeat;
+                background-repeat:no-repeat;
                 display: inline-block;
-            box-shadow:0px -3px 6px 2px rgba(0,0,0,0.2);
+                box-shadow:0px -3px 6px 2px rgba(0,0,0,0.2);
             }
             .btn-primary
             {
@@ -128,31 +140,31 @@
             margin-bottom:15px;
             }
             .del
-            {
-            position:absolute;
-            top:0px;
-            right:15px;
-            width:30px;
-            height:30px;
-            text-align:center;
-            line-height:30px;
-            background-color:rgba(255,255,255,0.6);
-            cursor:pointer;
-            }
+                {
+                position:absolute;
+                top:0px;
+                right:15px;
+                width:30px;
+                height:30px;
+                text-align:center;
+                line-height:30px;
+                background-color:rgba(255,255,255,0.6);
+                cursor:pointer;
+                }
             .imgAdd
-            {
-            width:30px;
-            height:30px;
-            border-radius:50%;
-            background-color:#4bd7ef;
-            color:#fff;
-            box-shadow:0px 0px 2px 1px rgba(0,0,0,0.2);
-            text-align:center;
-            line-height:30px;
-            margin-top:0px;
-            cursor:pointer;
-            font-size:15px;
-            }
+                {
+                    width:30px;
+                    height:30px;
+                    border-radius:50%;
+                    background-color:#4bd7ef;
+                    color:#fff;
+                    box-shadow:0px 0px 2px 1px rgba(0,0,0,0.2);
+                    text-align:center;
+                    line-height:30px;
+                    margin-top:0px;
+                    cursor:pointer;
+                    font-size:15px;
+                }
         </style>
 
                 <!--Start Checkout Page-->
