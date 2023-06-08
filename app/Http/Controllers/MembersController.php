@@ -96,4 +96,6 @@ class MembersController extends Controller
 
         return Redirect::back();
     }
+
+
 }

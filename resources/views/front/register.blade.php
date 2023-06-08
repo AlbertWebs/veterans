@@ -122,10 +122,39 @@
                                         </div>
                                         <div class="col-xl-6">
                                             <div class="billing_input_box">
-                                                <input name="email" type="email" placeholder="Email Address" required="required">
+                                                <input name="email" onblur="duplicateEmail(this)" type="email" placeholder="Email Address" required="required">
+                                                {{-- Check If Email Exists --}}
+                                                <small style="display: none" id="exists-alert" class="text-danger alert-danger">The email aready exists</small>
                                             </div>
                                         </div>
                                     </div>
+                                    <script>
+                                        function duplicateEmail(element){
+                                            var email = $(element).val();
+                                            $.ajaxSetup({
+                                                headers: {
+                                                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                                                }
+                                            });
+                                            $.ajax({
+                                                type: "POST",
+                                                url: '{{url('checkemail')}}',
+                                                data: {email:email},
+                                                dataType: "json",
+                                                success: function(res) {
+                                                    if(res.exists){
+                                                        // alert('true');
+                                                        $('#exists-alert').show();
+                                                    }else{
+                                                        // alert('false');
+                                                    }
+                                                },
+                                                error: function (jqXHR, exception) {
+
+                                                }
+                                            });
+                                        }
+                                    </script>
                                     <div class="row bs-gutter-x-20">
                                         <div class="col-xl-6">
                                             <div class="billing_input_box">

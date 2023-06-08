@@ -21,6 +21,8 @@ Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact_
 Route::get('/regions', [App\Http\Controllers\HomeController::class, 'regions'])->name('regions');
 Route::get('/press-releases', [App\Http\Controllers\HomeController::class, 'releases'])->name('press-releases');
 
+Route::post('/checkemail',[App\Http\Controllers\HomeController::class, 'checkEmail'])->name('checkEmail');
+
 
 Route::get('/veterans-register', [App\Http\Controllers\HomeController::class, 'register'])->name('register');
 Route::post('/generate-membership-number', [App\Http\Controllers\HomeController::class, 'membership'])->name('membership-number');
