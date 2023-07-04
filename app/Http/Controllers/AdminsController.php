@@ -7,7 +7,7 @@ use App\Models\Leadership;
 use App\Models\Member;
 use App\Models\Membership;
 use App\Models\Order;
-
+use App\Models\SendEmail;
 use App\Models\Blog;
 use Illuminate\Support\Str;
 use Session;
@@ -318,8 +318,12 @@ class AdminsController extends Controller
         $updateDetails = array(
             'number'=>$Number,
         );
+        // Get Member Email Address
+        $MemberEmail = $GetDetails->email;
+        $MemberName = $GetDetails->name;
+        // Send Member an Email
+        SendEmail::SendNotfication($MemberEmail,$Number, $MemberName);
         DB::table('memberships')->where('id',$id)->update($updateDetails);
-
     }
 
 }
