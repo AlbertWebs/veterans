@@ -127,11 +127,13 @@
                                         <li>
                                             <a href="{{url('/')}}/regions">Regions</a>
                                         </li>
-                                        {{-- <li>
-                                            <a onclick="return alert('Work in progress....')" href="#">History</a>
-                                        </li> --}}
+
                                         <li>
                                             <a href="{{url('/')}}/contact-us">Contact</a>
+                                        </li>
+
+                                        <li class="hide-desktop">
+                                            <a  href="{{url('/')}}/veterans-register"><span class="fa fa-user"><span> Membership Area </a>
                                         </li>
                                     </ul>
                                 </div>

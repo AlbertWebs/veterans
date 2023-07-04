@@ -326,4 +326,15 @@ class AdminsController extends Controller
         DB::table('memberships')->where('id',$id)->update($updateDetails);
     }
 
+    public function mailMembershipNumber($id){
+        $GetDetails = Membership::find($id);
+        // Get Member Email Address
+        $MemberEmail = $GetDetails->email;
+        $MemberName = $GetDetails->name;
+        $Number = $GetDetails->number;
+        SendEmail::SendNotfication($MemberEmail,$Number, $MemberName);
+        Session::flash('message', "Membership Number Has Been Sent to ".$MemberName."");
+        return Redirect::back();
+    }
+
 }

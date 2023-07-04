@@ -32,6 +32,11 @@
                  <div class="row">
                     <div class="col-lg-12">
                         @include('admin.panel')
+                        <center>
+                        @if(Session::has('message'))
+                                        <div class="alert alert-success">{{ Session::get('message') }}</div>
+                        @endif
+                        </center>
 
                     </div>
 
@@ -77,6 +82,8 @@
                                                             <a onclick="return confirm('Generate Membership')" href="{{url('/admin')}}/generate-number/{{$value->id}}"   class="btn btn-success"><i class="icon-check icon-white"></i> Generate Membership</a>
                                                         @else
                                                             <h3>{{$value->number}}</h3>
+
+                                                            <a onclick="return confirm('Send Membership Number')" href="{{url('/admin')}}/mail-number/{{$value->id}}"   class="btn btn-success"><i class="icon-check icon-white"></i> Mail Number </a>
                                                         @endif
                                                     </td>
 

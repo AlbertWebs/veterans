@@ -2,7 +2,7 @@
 
 @section('content')
 <div id="wrap" >
-        
+
 
         <!-- HEADER SECTION -->
         @include('admin.top')
@@ -18,12 +18,12 @@
 
         <!--PAGE CONTENT -->
         <div id="content">
-             
+
             <div class="inner" style="min-height: 700px;">
                 <div class="row">
                     <div class="col-lg-12">
                     <center><h2> Edit Slider </h2></center>
-                        
+
                     </div>
                 </div>
                   <hr />
@@ -38,13 +38,13 @@
                   <!--END BLOCK SECTION -->
                 <hr />
                    <!-- CHART & CHAT  SECTION -->
-              
+
                  <!--END CHAT & CHAT SECTION -->
-               
+
                   <!-- Inner Content Here -->
-                 
+
             <div class="inner">
-                
+
 
               <div class="row">
                <center>
@@ -54,7 +54,7 @@
                  </center>
 
                  <form class="form-horizontal" method="post"  action="{{url('/admin/edit_Slider')}}/{{$Slider->id}}" enctype="multipart/form-data">
-                    
+
                  <div class="form-group">
                         <label for="text1" class="control-label col-lg-4">Name</label>
 
@@ -63,7 +63,7 @@
                         </div>
                     </div>
 
-          
+
                         <div class="col-lg-12">
                             <div class="box">
                                 <header>
@@ -85,10 +85,10 @@
                                     </ul>
                                 </header>
                                 <div id="div-1" class="body collapse in">
-                                    
+
                                         <textarea name="content" id="wysihtml5" class="form-control" rows="10">{{$Slider->content}}</textarea>
 
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -112,11 +112,11 @@
                     <div class="col-lg-12 text-center">
                       <button type="submit" class="btn btn-success"><i class="icon-check icon-white"></i> Save</button>
                     </div>
-                    
-                    
+
+
                     <input type="hidden" name="image_cheat" value="{{$Slider->image}}">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                    
+
                 <form>
 
 
@@ -125,7 +125,7 @@
 
 
 
-                
+
             </div>
 
         </div>
