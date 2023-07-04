@@ -322,7 +322,7 @@ class AdminsController extends Controller
         $MemberEmail = $GetDetails->email;
         $MemberName = $GetDetails->name;
         // Send Member an Email
-        SendEmail::SendNotfication($MemberEmail,$Number, $MemberName);
+        // SendEmail::SendNotfication($MemberEmail,$Number, $MemberName);
         DB::table('memberships')->where('id',$id)->update($updateDetails);
     }
 
