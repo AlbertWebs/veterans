@@ -54,7 +54,7 @@
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table class="table table-striped table-bordered table-hover" id="dataTables-example">
-                                            <thead>
+                                            <thead class="text-center">
                                                 <tr>
                                                     <th>No</th>
                                                     <th>Name</th>
@@ -64,12 +64,16 @@
                                                     <th>Action</th>
                                                 </tr>
                                             </thead>
-                                            <tbody>
+                                            <tbody class="text-center">
                                             @foreach($Member as $value)
                                                 <tr class="odd gradeX text-center">
                                                     <td>{{$value->id}}</td>
-                                                    <td>{{$value->name}}</td>
-                                                    <td><strong>{{$value->service_number}}</strong></td>
+                                                    <td>{{$value->name}}<br>
+                                                        <small>
+                                                            <a href="mailto:{{$value->email}}">{{$value->email}}</a>
+                                                        </small>
+                                                    </td>
+                                                    <td><strong><h3>{{$value->service_number}}</h3></strong></td>
 
                                                     <td><center><img width="100" height="100" src="{{url('/')}}/uploads/files/{{$value->passport}}"></center></td>
 
