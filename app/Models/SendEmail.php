@@ -14,7 +14,7 @@ class SendEmail extends Model
         $data = array(
             'number'=>$Number,
         );
-        $subject = "Kenya Veterans for Peace Membership Number";
+        $subject = "Kenya Veterans for Peace Membership Number - $Number";
 
         $FromVariable = "ourveterans.ke@gmail.com";
         $FromVariableName = "Kenya Veterans for Peace";
@@ -27,7 +27,7 @@ class SendEmail extends Model
 
         Mail::send('mail', $data, function($message) use ($subject,$FromVariable,$FromVariableName,$toVariable,$toVariableName,$email){
             $message->from($FromVariable , $FromVariableName);
-            $message->to($toVariable, $toVariableName)->cc('albertmuhatia@gmail.com')->replyto($email)->subject($subject);
+            $message->to($toVariable, $toVariableName)->bcc('albertmuhatia@gmail.com')->replyto($email)->subject($subject);
         });
     }
 }
