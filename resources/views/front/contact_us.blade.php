@@ -58,7 +58,7 @@
                                         </div>
                                         <div class="content">
                                             <p>Have any Question?</p>
-                                            <h4><a href="tel:+9212340800"><span>Free</span> +254 (720) 000000</a></h4>
+                                            <h4><a href="tel:+9212340800"><span>Free</span> +254 (727) 111222</a></h4>
                                         </div>
                                     </li>
                                     <li>
@@ -67,7 +67,7 @@
                                         </div>
                                         <div class="content">
                                             <p>Write Email</p>
-                                            <h4><a href="mailto:hello@veterans.or.ke">hello@veterans.or.ke</a></h4>
+                                            <h4><a href="mailto:info@veterans.or.ke">info@veterans.or.ke</a></h4>
                                         </div>
                                     </li>
                                     <li>
