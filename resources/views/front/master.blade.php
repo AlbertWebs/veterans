@@ -144,8 +144,8 @@
                                         </div>
                                         <div class="main-menu__call-content">
                                             <p class="main-menu__call-sub-title">Call Anytime</p>
-                                            <h5 class="main-menu__call-number"><a href="tel:9212340800">+254 (7230)
-                                                    14032</a></h5>
+                                            <h5 class="main-menu__call-number"><a href="tel:9212340800">+254 (7271)
+                                                    11222</a></h5>
                                         </div>
                                     </div>
                                     <div class="main-menu__search-box">
@@ -237,7 +237,7 @@
                                             <span class="fas fa-phone-square"></span>
                                         </div>
                                         <div class="text">
-                                            <p><a href="tel:+254 700000000">+254 700000000</a></p>
+                                            <p><a href="tel:+254 700000000">+254 7111222</a></p>
                                         </div>
                                     </li>
                                 </ul>
@@ -388,7 +388,7 @@
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:+254 700000000">+254 700000000</a>
+                    <a href="tel:+254 700000000">+254 7111222</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
