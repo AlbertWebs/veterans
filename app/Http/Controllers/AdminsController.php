@@ -159,12 +159,15 @@ class AdminsController extends Controller
         return Redirect::back();
     }
 
-    public function editMember($id){
+    public function view_member($id){
         $Member = Member::find($id);
+        $Membership = Membership::where('email',$id)->get();
         $page_name = "Member";
         $page_title = "formfiletext";
-        return view('admin.editMember', compact('page_name','page_title','Member'));
+        return view('admin.viewMember', compact('page_name','page_title','Membership'));
     }
+
+
 
     public function edit_Member(Request $request, $id){
         $path = 'uploads/members';

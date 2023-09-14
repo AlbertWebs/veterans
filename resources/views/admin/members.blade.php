@@ -88,6 +88,8 @@
                                                             <h3>{{$value->number}}</h3>
 
                                                             <a onclick="return confirm('Send Membership Number')" href="{{url('/admin')}}/mail-number/{{$value->id}}"   class="btn btn-success"><i class="icon-check icon-white"></i> Mail Number </a>
+                                                            <br> <br>
+                                                            <a  href="{{url('/admin')}}/view-member/{{$value->email}}"   class="btn btn-info"><i class="icon-eye-open icon-white"></i> View Member </a>
                                                         @endif
                                                     </td>
 

@@ -64,9 +64,7 @@ Route::group(['prefix'=>'admin'], function(){
     Route::get('/generate-number/{id}',  [App\Http\Controllers\AdminsController::class, 'generate_number'])->middleware('is_admin');
 
     Route::get('/mail-number/{id}',  [App\Http\Controllers\AdminsController::class, 'mailMembershipNumber'])->middleware('is_admin');
-
-
-
+    Route::get('/view-member/{id}',  [App\Http\Controllers\AdminsController::class, 'view_member'])->middleware('is_admin');
 
 });
 
