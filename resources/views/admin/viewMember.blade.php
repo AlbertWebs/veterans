@@ -67,24 +67,13 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-lg-4" style="border:5px solid #ffffff">
-                                                    <div class="team-details__left">
-                                                        <div class="team-details__img">
                                                             <img src="{{url('/')}}/uploads/files/{{$membership->identity}}" alt="{{$membership->name}}">
-                                                        </div>
-                                                    </div>
                                                 </div>
                                                 <div class="col-lg-4"  style="border:5px solid #ffffff">
-                                                    <div class="team-details__left">
-                                                        <div class="team-details__img">
                                                             <img src="{{url('/')}}/uploads/files/{{$membership->military_id}}" alt="{{$membership->name}}">
-                                                        </div>
-                                                    </div>
                                                 </div>
                                                 <div class="col-lg-4"  style="border:5px solid #ffffff">
-                                                    <div class="team-details__left">
                                                             <img src="{{url('/')}}/uploads/files/{{$membership->military_id}}" alt="{{$membership->name}}">
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
