@@ -58,7 +58,7 @@
                                         </div>
                                         <div class="content">
                                             <p>Have any Question?</p>
-                                            <h4><a href="tel:+9212340800"><span>Free</span> +254 (727) 111222</a></h4>
+                                            <h4><a href="tel:++254 708-002-333"><span>Mobile</span> +254 708-002-333</a></h4>
                                         </div>
                                     </li>
                                     <li>
