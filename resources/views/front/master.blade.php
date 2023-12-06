@@ -145,7 +145,7 @@
                                         </div>
                                         <div class="main-menu__call-content">
                                             <p class="main-menu__call-sub-title">Call Anytime</p>
-                                            <h5 class="main-menu__call-number"><a href="tel:+254 708-002-333">+254 708-002-333</a></h5>
+                                            <h5 class="main-menu__call-number"><a href="tel:+254 720882578">+254 720882578</a></h5>
                                         </div>
                                     </div>
                                     <div class="main-menu__search-box">
@@ -221,7 +221,7 @@
                                 <div class="footer-widget__title-box">
                                     <h3 class="footer-widget__title">Contact</h3>
                                 </div>
-                                <p class="footer-widget__Contact-text">Nyayo House, 16th Floor.  Nairobi, Kenya
+                                <p class="footer-widget__Contact-text">Nyayo House, 6th Floor Office 612.  Nairobi, Kenya
                                 </p>
                                 <ul class="footer-widget__Contact-list list-unstyled">
                                     <li>
@@ -237,7 +237,7 @@
                                             <span class="fas fa-phone-square"></span>
                                         </div>
                                         <div class="text">
-                                            <p><a href="tel:+254 708-002-333">+254 708-002-333</a></p>
+                                            <p><a href="tel:+254 720882578">+254 720882578</a></p>
                                         </div>
                                     </li>
                                 </ul>
@@ -388,7 +388,7 @@
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:+254 708-002-333">+254 708-002-333</a>
+                    <a href="tel:+254 720882578">+254 720882578</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">

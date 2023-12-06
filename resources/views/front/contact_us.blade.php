@@ -58,7 +58,7 @@
                                         </div>
                                         <div class="content">
                                             <p>Have any Question?</p>
-                                            <h4><a href="tel:++254 708-002-333"><span>Mobile</span> +254 708-002-333</a></h4>
+                                            <h4><a href="tel:+254 720882578"><span>Mobile</span> +254 720882578</a></h4>
                                         </div>
                                     </li>
                                     <li>
@@ -76,7 +76,7 @@
                                         </div>
                                         <div class="content">
                                             <p>Location</p>
-                                            <h4>Nyayo House, 16th Floor. Nairobi, Kenya</h4>
+                                            <h4>Nyayo House, 6th Floor Office 612.  Nairobi, Kenya</h4>
                                         </div>
                                     </li>
                                 </ul>
