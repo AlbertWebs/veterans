@@ -234,12 +234,20 @@
                                     </li>
                                     <li>
                                         <div class="icon">
+                                            <span class="icon-email"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p><a href="mailto:info@veterans.or.ke">info@veterans.or.ke</a></p>
+                                        </div>
+                                    </li>
+                                    {{-- <li>
+                                        <div class="icon">
                                             <span class="fas fa-phone-square"></span>
                                         </div>
                                         <div class="text">
                                             <p><a href="tel:+254 720882578">+254 720882578</a></p>
                                         </div>
-                                    </li>
+                                    </li> --}}
                                 </ul>
                                 <div class="site-footer__social">
                                     <a href="#"><i class="fab fa-twitter"></i></a>

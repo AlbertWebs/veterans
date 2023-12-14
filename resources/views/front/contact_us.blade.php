@@ -52,13 +52,22 @@
                                 </div>
                                 <p class="contact-page__text"><q>The More We Sweat In Peace, The Less We Bleed In War</q></p>
                                 <ul class="list-unstyled contact-page__contact-list">
-                                    <li>
+                                    {{-- <li>
                                         <div class="icon">
                                             <span class="icon-telephone"></span>
                                         </div>
                                         <div class="content">
                                             <p>Have any Question?</p>
                                             <h4><a href="tel:+254 720882578"><span>Mobile</span> +254 720882578</a></h4>
+                                        </div>
+                                    </li> --}}
+                                    <li>
+                                        <div class="icon">
+                                            <span class="icon-email"></span>
+                                        </div>
+                                        <div class="content">
+                                            <p>Write Email</p>
+                                            <h4><a href="mailto:hello@veterans.or.ke">hello@veterans.or.ke</a></h4>
                                         </div>
                                     </li>
                                     <li>
