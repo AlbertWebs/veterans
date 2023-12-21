@@ -141,13 +141,17 @@
                                 <div class="main-menu__right">
                                     <div class="main-menu__call">
                                         <div class="main-menu__call-icon">
-                                            <span class="icon-telephone"></span>
+                                            <span class="icon-email"></span>
                                         </div>
                                         <div class="main-menu__call-content">
-                                            <p class="main-menu__call-sub-title">Call Anytime</p>
-                                            <h5 class="main-menu__call-number"><a href="tel:+254 720882578">+254 720882578</a></h5>
+                                            <p class="main-menu__call-sub-title">email Anytime</p>
+                                            <h5 class="main-menu__call-number"><a href="mailto:info@veterans.or.ke">info@veterans.or.ke</a></h5>
                                         </div>
                                     </div>
+                                    {{-- <li>
+                                        <i class="fa fa-envelope-alt"></i>
+                                        <a href="mailto:info@veterans.or.ke">info@veterans.or.ke</a>
+                                    </li> --}}
                                     <div class="main-menu__search-box">
                                         <a href="#" class="main-menu__search search-toggler icon-magnifying-glass"></a>
                                     </div>
@@ -240,14 +244,7 @@
                                             <p><a href="mailto:info@veterans.or.ke">info@veterans.or.ke</a></p>
                                         </div>
                                     </li>
-                                    {{-- <li>
-                                        <div class="icon">
-                                            <span class="fas fa-phone-square"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p><a href="tel:+254 720882578">+254 720882578</a></p>
-                                        </div>
-                                    </li> --}}
+
                                 </ul>
                                 <div class="site-footer__social">
                                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -395,8 +392,8 @@
                     <a href="mailto:hello@veterans.or.ke">hello@veterans.or.ke</a>
                 </li>
                 <li>
-                    <i class="fa fa-phone-alt"></i>
-                    <a href="tel:+254 720882578">+254 720882578</a>
+                    <i class="fa fa-envelope-alt"></i>
+                    <a href="mailto:info@veterans.or.ke">info@veterans.or.ke</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
